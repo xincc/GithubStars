@@ -92,6 +92,7 @@
 * <a name="awesome-machine-learning"></a> **Awesome machine learning**
 	* The most cited deep learning papers [awesome-deep-learning-papers](https://github.com/terryum/awesome-deep-learning-papers) ⭐️⭐️⭐️⭐️⭐️
 	* Minimal and clean examples of machine learning algorithms. [MLAlgorithms](https://github.com/rushter/MLAlgorithms) ⭐️⭐️⭐️⭐️⭐️
+    * A curated list of awesome Machine Learning frameworks, libraries and software.  [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) ⭐️⭐️⭐️⭐️⭐️⭐️⭐️
 * <a name="machine-learning-nlp"></a>**NLP**
 	* Natural language processing in javascript. [nlp-compromise](https://github.com/nlp-compromise/compromise) ⭐️⭐️⭐️⭐️⭐️
 	* general natural language facilities for node. [NaturalNode](https://github.com/NaturalNode/natural) ⭐️⭐️⭐️⭐️
@@ -100,6 +101,14 @@
 	* Speech recognition module for Python, supporting several engines and APIs, online and offline.  [speech_recognition](https://github.com/Uberi/speech_recognition) ⭐️⭐️⭐️
 * <a name="machine-learning-photos"></a>**Photos**
 	* A simple interface for editing natural photos with generative neural networks. [Neural-Photo-Editor](https://github.com/ajbrock/Neural-Photo-Editor) ⭐️⭐️
+    * Generate image analogies using neural matching and blending.  [image-analogies](https://github.com/awentzonline/image-analogies) ⭐️⭐️⭐️
+* An absolute beginner's guide to Machine Learning and Image Classification with Neural Networks [have-fun-with-machine-learning](https://github.com/humphd/have-fun-with-machine-learning) ⭐️⭐️⭐️
+* Universe: a software platform for measuring and training an AI's general intelligence across the world's supply of games, websites and other applications. [universe](https://github.com/openai/universe) ⭐️⭐️⭐️
+
+* Uses WiFi signals 📶 and machine learning to predict where you are.  [whereami](https://github.com/kootenpv/whereami) ⭐️⭐️⭐️
+
+* scikit-learn: machine learning in Python.  [scikit-learn](https://github.com/scikit-learn/scikit-learn) ⭐️⭐️⭐️⭐️⭐️
+
 
 
 
@@ -107,12 +116,18 @@
 * <a name="deep-learning-tensorflow"></a>**Tensorflow**
 	* Computation using data flow graphs for scalable machine learning .  [tensorflow](https://github.com/tensorflow/tensorflow) ⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
 	* TensorFlowOnSpark brings TensorFlow programs onto Apache Spark clusters [TensorFlowOnSpark](https://github.com/yahoo/TensorFlowOnSpark) ⭐️⭐️⭐️⭐️
+    * Replicating AlphaGo's architecture in a readable manner. [MuGo](https://github.com/brilee/MuGo) ⭐️⭐️
+    * TensorFlow implementation of "Learning from Simulated and Unsupervised Images through Adversarial Training"  [simulated-unsupervised-tensorflow](https://github.com/carpedm20/simulated-unsupervised-tensorflow) ⭐️⭐️
+    * Deep learning library featuring a higher-level API for TensorFlow.   [tflearn](https://github.com/tflearn/tflearn) ⭐️⭐️⭐️⭐️
+    * Models built with TensorFlow. [models](https://github.com/tensorflow/models) ⭐️⭐️⭐️⭐️⭐️
 * PArallel Distributed Deep Learning [Paddlepaddle](https://github.com/PaddlePaddle/Paddle) ⭐️⭐️⭐️
 * Generating faces with deconvolution networks [deconvfaces](https://github.com/zo7/deconvfaces) ⭐️⭐️
 * Super Resolution for images using deep learning. [neural-enhance](https://github.com/alexjc/neural-enhance) ⭐️⭐️⭐️⭐️
-
-
-
+* Deep Learning papers reading roadmap for anyone who are eager to learn this amazing tech! [Deep-Learning-Papers-Reading-Roadmap](https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap)  ⭐️⭐️⭐️⭐️⭐️
+* Deep learning models trained to correct input errors in short, message-like text.  [deep-text-corrector](https://github.com/atpaino/deep-text-corrector) ⭐️⭐️
+* Magnificent app which corrects your previous console command. [thefuck](https://github.com/nvbn/thefuck) ⭐️⭐️⭐️⭐️⭐️⭐️⭐️
+* An independent, student-led replication of DeepMind's 2016 Nature publication, "Mastering the game of Go with deep neural networks and tree search" (Nature 529, 484-489, 28 Jan 2016), details of which can be found on their website [RocAlphaGo](https://github.com/Rochester-NRT/RocAlphaGo) ⭐️⭐️⭐️⭐️
+* Deep Learning library for Python. Convnets, recurrent neural networks, and more. Runs on Theano or TensorFlow. [keras](https://github.com/fchollet/keras) ⭐️⭐️⭐️⭐️⭐️
 
 
 ##<a name="ios"></a>iOS
@@ -202,6 +217,8 @@
 	* 不会运维的 iOS 开发不是好设计师。这个 Ansible Playbook 能快速配置 iOS 开发需要的服务，安装如 Gogs、GitLab、Countly、Jenkins、Ghost、Ajenti、Seafile 等常用服务。[ios-dev-playbook](https://github.com/lexrus/ios-dev-playbook) ⭐️⭐️⭐️⭐️
 	* Script to generate icons and splash for iOS/Android.  [IconSplashMaker](https://github.com/winterfeel/IconSplashMaker) ⭐️
 	* This script is use to generator ios app icons more easier. [ios-icon-generator](https://github.com/smallmuou/ios-icon-generator) ⭐️⭐️⭐️⭐️
+	* 脚本接收一个productID作为参数（iTunes里面链接的ID），并抓取所以评论此app的用户，他们也评论了哪些其它的app。最后按其它app作为key，数量作为value聚合。 [CustomersAlsoReviewed-AppStore](https://github.com/ewangke/CustomersAlsoReviewed-AppStore) ⭐️⭐️
+    * 上传 ipa 文件到 蒲公英.  [pugongying](https://github.com/answer-huang/pugongying) ⭐️
 
 
 
@@ -475,7 +492,13 @@
 	* Project no longer maintained[my-sketch-colors](https://github.com/RayPS/my-sketch-colors) ⭐️⭐️
 	* Export assets for Android, iOS, Windows Phone in Sketch.[sketch-export-assets](https://github.com/GeertWille/sketch-export-assets) ⭐️⭐️⭐️⭐️
 	* 🎨 Color Pickers from Sketch, Photoshop, Chrome, Github, Twitter & more. [URL](https://github.com/casesandberg/react-color) ⭐️⭐️⭐️⭐️
-* The Pencil Project's unique mission is to build a free and opensource tool for making diagrams and GUI prototyping that everyone can use. [pencil](https://github.com/evolus/pencil) ⭐️⭐️⭐️
+	* The Pencil Project's unique mission is to build a free and opensource tool for making diagrams and GUI prototyping that everyone can use. [pencil](https://github.com/evolus/pencil) ⭐️⭐️⭐️
+	* Zipline, a Pythonic Algorithmic Trading Library. [zipline](https://github.com/quantopian/zipline) ⭐️⭐️⭐️
+
+* Command-line program to download videos from YouTube.com and other video sites. 
+* Monospaced font family for user interface and coding environments.  [source-code-pro](https://github.com/adobe-fonts/source-code-pro) ⭐️⭐️⭐️
+* 批量压缩png和jpg图片python脚本.  [GGTinypng](https://github.com/ylovern/GGTinypng) ⭐️⭐️
+
 
 
 
@@ -484,12 +507,39 @@
 
 
 ##<a name="python"></a>Python
+* A curated list of awesome Python frameworks, libraries, software and resources.  [awesome-python](https://github.com/vinta/awesome-python) ⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
+* My Python Examples. [Python](https://github.com/geekcomputers/Python) ⭐️⭐️⭐️⭐️⭐️
+
+* 基于 python3.4 和 django1.9 的 Blog 项目.  [django-blog-tutorial](https://github.com/zmrenwu/django-blog-tutorial) ⭐️⭐️⭐️
 * Project documentation with Markdown. [mkdocs](https://github.com/mkdocs/mkdocs) ⭐️⭐️⭐️⭐️
 * A transparent bridge between Git and Dropbox - use a Dropbox (shared) folder as a Git remote! 🎁 [git-remote-dropbox](https://github.com/anishathalye/git-remote-dropbox) ⭐️⭐️⭐️
 * Apple 网络服务加速配置。（少数派、Appinn、Mac玩儿法 推荐） [AppleDNS](https://github.com/gongjianhui/AppleDNS) ⭐️⭐️⭐️
 * [URL](curl statistics made simple)  [httpstat](https://github.com/reorx/httpstat) ⭐️⭐️⭐️
 * Apache Libcloud is a Python library which hides differences between different cloud provider APIs and allows you to manage different cloud resources through a unified and easy to use API. [libcloud](https://github.com/apache/libcloud) ⭐️⭐️
 * artistic QR Code in Python （Animated GIF qr code）- Python 艺术二维码生成器 （GIF动态二维码、图片二维码）[qrcode](https://github.com/sylnsfar/qrcode) ⭐️⭐️⭐️⭐️⭐️
+* Python HTTP Requests for Humans™  [requests](https://github.com/kennethreitz/requests) ⭐️⭐️⭐️⭐️⭐️
+* Modern command line HTTP client – user-friendly curl alternative with intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, etc. [httpie](https://github.com/jkbrzt/httpie) ⭐️⭐️⭐️⭐️⭐️
+* Command-line program to download videos from YouTube.com and other video sites. [youtube-dl](https://github.com/rg3/youtube-dl) ⭐️⭐️
+* An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.  [mitmproxy](https://github.com/mitmproxy/mitmproxy) ⭐️⭐️⭐️⭐️
+* Searches through git repositories for high entropy strings, digging deep into commit history [truffleHog](https://github.com/dxa4481/truffleHog) ⭐️
+
+* 🏡 Open-source home automation platform running on Python 3.  [home-assistant](https://github.com/home-assistant/home-assistant) ⭐️⭐️⭐️⭐️
+* Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more.  [pandas](https://github.com/pandas-dev/pandas) ⭐️⭐️⭐️⭐️⭐️
+
+* Augmented Traffic Control: A tool to simulate network conditions. [augmented-traffic-control](https://github.com/facebook/augmented-traffic-control) ⭐️⭐️⭐️
+
+* 结巴中文分词 做最好的 Python 中文分词组件 [jieba](https://github.com/fxsjy/jieba) ⭐️⭐️⭐️⭐️⭐️
+* TuShare是实现对股票/期货等金融数据从数据采集、清洗加工 到 数据存储过程的工具，满足金融量化分析师和学习数据分析的人在数据获取方面的需求，它的特点是数据覆盖范围广，接口调用简单,响应快速。 [tushare](https://github.com/waditu/tushare) ⭐️⭐️
+* A Python wrapper around the OpenSSL library . [pyopenssl](https://github.com/pyca/pyopenssl) ⭐️
+
+* Scrapy, a fast high-level web crawling & scraping framework for Python. [scrapy](https://github.com/scrapy/scrapy) ⭐️⭐️⭐️⭐️⭐️
+
+* A tiny script to issue and renew TLS certs from Let's Encrypt. [acme-tiny](https://github.com/diafygi/acme-tiny) ⭐️⭐️⭐️⭐️⭐️
+* A typeface designed for source code. [Hack](https://github.com/chrissimpkins/Hack) ⭐️⭐️⭐️⭐️
+* gmail backup software. [gmvault](https://github.com/gaubert/gmvault) ⭐️⭐️
+
+
+
 
 ## <a name="docker"></a>Docker
 * <a name="awesome-docker"></a>**Awesome Docker**
@@ -505,6 +555,7 @@
 	* Make Your Company Data Driven. Connect to any data source, easily visualize and share your data. [redash](https://github.com/getredash/redash) ⭐️⭐️⭐️⭐️
 	* A simple and beautiful wiki for teams. [Matterwiki](https://github.com/Matterwiki/Matterwiki) ⭐️⭐️⭐️⭐️⭐️
 	* A web based mission control framework.(航天地面指挥中心)   [openmct](https://github.com/nasa/openmct) ⭐️⭐️⭐️⭐️
+	* Superset is a data exploration platform designed to be visual, intuitive, and interactive. [airbnb/superset](https://github.com/airbnb/superset) ⭐️⭐️⭐️⭐️⭐️
 * <a name="distribution-plan-vpn"></a>**VPN**
 	* Distributed private networking [meshbird](https://github.com/meshbird/meshbird) ⭐️⭐️⭐️
 	* Make a self hosted OpenVPN server in 15 minutes.[popup-openvpn](https://github.com/robbintt/popup-openvpn) ⭐️
@@ -516,6 +567,10 @@
 	* The unofficial documentation of the iTunes Connect JSON API. [itc-api-docs](https://github.com/fastlane/itc-api-docs) ⭐️⭐️⭐️⭐️
 	* An open-source screen recorder built with web technology. [kap](https://github.com/wulkano/kap) ⭐️⭐️⭐️
 	* RESTful web API Documentation Generator.  [apidoc](https://github.com/apidoc/apidoc) ⭐️⭐️⭐️⭐️
+	* Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy. Avoid writing scripts or custom code to deploy and update your applications— automate in a language that approaches plain English, using SSH, with no agents to install on remote systems. [ansible](https://github.com/ansible/ansible) ⭐️⭐️⭐️⭐️⭐️
+	* :octocat: 使用 Python Flask + SQLAchemy + Celery + Redis + React 开发的用于迅速搭建并使用 WebHook 进行自动化部署和运维，支持 Github / GitLab / Gogs / GitOsc。[git-webhook](https://github.com/NetEaseGame/git-webhook) ⭐️⭐️⭐️
+    * Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence. [spinnaker](https://github.com/spinnaker/spinnaker) ⭐️⭐️⭐️
+
 
 * <a name="#distribution-plan-data-analytics"></a>**数据分析**
 	* Liberating Web Analytics. Star us on Github? +1. Piwik is the leading open alternative to Google Analytics that gives you full control over your data. Piwik lets you easily collect data from websites, apps & the IoT and visualise this data and extract insights. Privacy is built-in.[piwik](https://github.com/piwik/piwik) ⭐️⭐️⭐️⭐️
@@ -541,7 +596,7 @@
 * A powerful and stable keyboard customizer for OS X. [Karabiner-Elements](https://github.com/tekezo/Karabiner-Elements) ⭐️⭐️⭐️⭐️
 * A minimal, Markdown based blogging system written in Python. [Letterpress](https://github.com/an0/Letterpress) ⭐️
 
-
+* The official source code repository for the calibre ebook manager [calibre](https://github.com/kovidgoyal/calibre) ⭐️⭐️⭐️
 
 ##<a name="other"></a>Other
 * <a name="other-tools"></a>**工具**
@@ -563,10 +618,17 @@
 	* ☕️ Caffeinated Packet Analyzer.  [dripcap](https://github.com/dripcap/dripcap) ⭐️⭐️⭐️
 	* e text editor. [e](https://github.com/etexteditor/e) ⭐️⭐️
 	* 基于python的开源量化交易平台开发框架. [vnpy](https://github.com/vnpy/vnpy) ⭐️⭐️⭐️
+    * A complete and graceful API for Wechat. 微信个人号接口、微信机器人及命令行微信，三十行即可自定义个人号机器人。 [ItChat](https://github.com/littlecodersh/ItChat) ⭐️⭐️⭐️⭐️⭐️
+
+    * 12306 图片验证码识别测试. [fuck12306](https://github.com/andelf/fuck12306) ⭐️⭐️⭐️
+
+    * 📠 Convert various source codes into pdf file with custom features.  [code2pdf](https://github.com/tushar-rishav/code2pdf) ⭐️⭐️⭐️⭐️
+
 
 * <a name="other-useful"></a>**干货**
 	*  Swiss Army Knife for macOS. [m-cli](https://github.com/rgcr/m-cli) ⭐️⭐️⭐️⭐️⭐️
 	*  This repo is a collection of awesome Mac applications and tools for developers and designers. [awesome-mac](https://github.com/jaywcjlove/awesome-mac) ⭐️⭐️⭐️⭐️⭐️
+    * This is a collection of thoughts on securing a modern Apple Mac computer using macOS (formerly OS X) 10.12 "Sierra", as well as steps to improving online privacy. [macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide) [中文](https://github.com/xitu/macOS-Security-and-Privacy-Guide/blob/master/README-cn.md) ⭐️⭐️⭐️⭐️⭐️⭐️⭐️
 	* Apple iOS/macOS Provisioning Profiles management,.provisionprofile, .mobileprovision files manager tool for mac. [ProfilesManager](https://github.com/shaojiankui/ProfilesManager) ⭐️⭐️⭐️⭐️
 	* Shell scripts to build FFmpeg for iOS and tvOS. [FFmpeg-iOS-build-script](https://github.com/kewlbear/FFmpeg-iOS-build-script) ⭐️⭐️⭐️
 	* 一个前端开发工程师的的vim. [URL](https://github.com/jaywcjlove/vim-web) ⭐️
