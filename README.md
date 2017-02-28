@@ -232,7 +232,8 @@
 	* This script is use to generator ios app icons more easier. [ios-icon-generator](https://github.com/smallmuou/ios-icon-generator) ⭐️⭐️⭐️⭐️
 	* 脚本接收一个productID作为参数（iTunes里面链接的ID），并抓取所以评论此app的用户，他们也评论了哪些其它的app。最后按其它app作为key，数量作为value聚合。 [CustomersAlsoReviewed-AppStore](https://github.com/ewangke/CustomersAlsoReviewed-AppStore) ⭐️⭐️
     * 上传 ipa 文件到 蒲公英.  [pugongying](https://github.com/answer-huang/pugongying) ⭐️
-
+    * Apple iOS/macOS Provisioning Profiles management,.provisionprofile, .mobileprovision files manager tool for mac. [ProfilesManager](https://github.com/shaojiankui/ProfilesManager) ⭐️⭐️⭐️⭐️
+    * 💳 PHP class for creating passes for Wallet on iOS.  [PHP-PKPass](https://github.com/tschoffelen/PHP-PKPass) ⭐️⭐️⭐️
 
 
 ##<a name="hybrid"></a>Hybrid
@@ -416,6 +417,7 @@
 	* A lightweight, extendable front-end developer tool for mobile web page. [vConsole](https://github.com/WechatFE/vConsole) ⭐️⭐️⭐️⭐️
 	* Production process manager for Node.js apps with a built-in load balancer. [pm2](https://github.com/Unitech/pm2) ⭐️⭐️⭐️⭐️⭐️
 	* A terminal built on web technologies. [hyper](https://github.com/zeit/hyper) ⭐️⭐️⭐️⭐️⭐️
+    * LeoFS is an unstructured object/data storage for the Web and a highly available, distributed, eventually consistent storage system.  [leofs](https://github.com/leo-project/leofs) ⭐️⭐️
 
 
 * <a name="fe-other"></a>**Other**
@@ -467,6 +469,7 @@
 	* Expressive middleware for node.js using generators. [koajs/koa](https://github.com/koajs/koa) ⭐️⭐️⭐️⭐️⭐️
 * <a name="server-php"></a>**PHP**
     * The PHP Interpreter. [php-src](https://github.com/php/php-src) ⭐️⭐️⭐️⭐️⭐️
+    * A PHP Framework For Web Artisans. [laravel](https://github.com/laravel/laravel) ⭐️⭐️⭐️⭐️
 * <a name="server-swift"></a>**Swift**
 * <a name="server-ruby"></a>**Ruby**
 	* A repository of geographic regions for Ruby.  [carmen](https://github.com/jim/carmen) ⭐️⭐️
@@ -523,7 +526,16 @@
 * The most awesome Powerline theme for ZSH around! [powerlevel9k](https://github.com/bhilburn/powerlevel9k) ⭐️⭐️
 * JSON output from a shell [jpmens/jo](https://github.com/jpmens/jo) ⭐️⭐️⭐️
 * Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。 [linux-command](https://github.com/jaywcjlove/linux-command) ⭐️⭐️⭐️⭐️⭐️
-
+* fugitive.vim: a Git wrapper so awesome, it should be illegal. [vim-fugitive](https://github.com/tpope/vim-fugitive) ⭐️⭐️⭐️⭐️⭐️  <sup>vim</sup>
+* use vim as IDE. [use_vim_as_ide](https://github.com/yangyangwithgnu/use_vim_as_ide) ⭐️⭐️⭐️⭐️⭐️ <sup>vim book</sup>
+* vim配置文件和插件. [ma6174/vim](https://github.com/ma6174/vim) ⭐️⭐️⭐️
+* 一个前端开发工程师的的vim. [vim-web](https://github.com/jaywcjlove/vim-web) ⭐️  <sup>vim</sup>
+* A vimrc that Just Works™ for modern JavaScript development. [vimrc.js](https://github.com/zperrault/vimrc.js) ⭐️⭐️ <sup>vim</sup>
+* Vim configuration files for Elixir  [vim-elixir](https://github.com/elixir-lang/vim-elixir) ⭐️⭐️ <sup>vim</sup>
+* Search Dash.app from Vim. [dash.vim](https://github.com/rizzatti/dash.vim) ⭐️
+* vim color scheme inspired by Taylor Swift.  [1989.vim](https://github.com/sonjapeterson/1989.vim) ⭐️
+* A personal Emacs configuration. [URL](https://github.com/zilongshanren/spacemacs-private) ⭐️⭐️ <sup>emacs</sup>
+* A community driven list of useful Emacs packages, libraries and others. [awesome-emacs](https://github.com/emacs-tw/awesome-emacs) ⭐️⭐️⭐️⭐️⭐️ <sup>emacs</sup>
 
 ##<a name="python"></a>Python
 * A curated list of awesome Python frameworks, libraries, software and resources.  [awesome-python](https://github.com/vinta/awesome-python) ⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
@@ -654,11 +666,8 @@
 	*  Swiss Army Knife for macOS. [m-cli](https://github.com/rgcr/m-cli) ⭐️⭐️⭐️⭐️⭐️
 	*  This repo is a collection of awesome Mac applications and tools for developers and designers. [awesome-mac](https://github.com/jaywcjlove/awesome-mac) ⭐️⭐️⭐️⭐️⭐️
     * This is a collection of thoughts on securing a modern Apple Mac computer using macOS (formerly OS X) 10.12 "Sierra", as well as steps to improving online privacy. [macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide) [中文](https://github.com/xitu/macOS-Security-and-Privacy-Guide/blob/master/README-cn.md) ⭐️⭐️⭐️⭐️⭐️⭐️⭐️
-	* Apple iOS/macOS Provisioning Profiles management,.provisionprofile, .mobileprovision files manager tool for mac. [ProfilesManager](https://github.com/shaojiankui/ProfilesManager) ⭐️⭐️⭐️⭐️
 	* Shell scripts to build FFmpeg for iOS and tvOS. [FFmpeg-iOS-build-script](https://github.com/kewlbear/FFmpeg-iOS-build-script) ⭐️⭐️⭐️
-	* 一个前端开发工程师的的vim. [URL](https://github.com/jaywcjlove/vim-web) ⭐️
 	* Based on a true story. [hacker-scripts](https://github.com/NARKOZ/hacker-scripts) ⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
-	* Vim configuration files for Elixir  [vim-elixir](https://github.com/elixir-lang/vim-elixir) ⭐️⭐️
 
 
 
