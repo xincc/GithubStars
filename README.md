@@ -59,8 +59,10 @@
 	* [Other](#fe-other)
 * [Server](#server)
 	* [Node](#server-node)
+    * [PHP](#server-php)
 	* [Swift](#server-swift)
 	* [Go](#server-go)
+    * [Redis](#server-redis)
 	* [SQL](#server-sql)
 	* [Java](#server-java)
 	* [Python](#server-python)
@@ -71,6 +73,7 @@
 * [Python](#python)
 * [Docker](#docker)
 	* [awesome](#awesome-docker)
+* [Git](#git)
 * [部署方案](#distribution-plan)
 	* [可视化](#distribution-plan-data-visible)
 	* [VPN](#distribution-plan-vpn)
@@ -80,9 +83,9 @@
 * [Other](#other)
 	* [工具](#other-tools)
 	* [干货](#other-useful)
-	* [学习](#other-learning)
-	* [算法/数据结构](#other-arithmetic)
 	* [其他Framework/Engine](#other-other)
+    * [学习](#other-learning)
+    * [算法/数据结构](#other-arithmetic)
 * [面试](#interview)	
 	
 	
@@ -155,6 +158,8 @@
 		* A reverse engineering tool to convert iOS app to dylib. [app2dylib](https://github.com/tobefuturer/app2dylib) ⭐️⭐️
 	* <a name="ios-objective-c-hotpatch"></a>**HotPatch**
 		* JSPatch Convertor is a tool that converts Objective-C code to JSPatch script automatically.  [JSPatchConvertor](https://github.com/bang590/JSPatchConvertor) ⭐️⭐️⭐️
+        * xLua is a hot-fix solution plugin for Unity and C#, it supports android, ios, windows, osx, etc.  [xLua](https://github.com/Tencent/xLua) ⭐️⭐️
+        * Dynamically load a lua script to change the behavior of your iOS application. [WaxPatch](https://github.com/mmin18/WaxPatch) ⭐️⭐️
 	* <a name="ios-objective-c-media"></a>**Media**
 
 				
@@ -195,9 +200,17 @@
 
 * <a name="ios-c++"></a>**C++**
 	* quick-cocos2d-x is a quick framework, based on cocos2d-x. Make mobile games in Lua.  [quick-cocos2d-x](https://github.com/chukong/quick-cocos2d-x) ⭐️⭐️
+    * ZipArchive is a simple utility class for zipping and unzipping files on iOS and Mac. [URL](https://github.com/ZipArchive/ZipArchive) ⭐️⭐️⭐️⭐️
+
+    * Record the iOS6/7/8/9/10 Device Screen on non-jailbroken iPhones. [RecordMyScreen-iOS10](https://github.com/xindawndev/RecordMyScreen-iOS10) ⭐️
+    * Pure Data embeddable audio synthesis library. [libpd](https://github.com/libpd/libpd) ⭐️⭐️
+    * Android/iOS video player based on FFmpeg n3.2, with MediaCodec, VideoToolbox support.  [ijkplayer](https://github.com/Bilibili/ijkplayer) ⭐️⭐️⭐️⭐️
+    * a Lib that enable you call objc or c code from javascript on iOS platform. [ETSummnor](https://github.com/eeeyes/ETSummnor) ⭐️⭐️⭐️
+
+    * A library that enables dynamically rebinding symbols in Mach-O binaries running on iOS. [fishhook](https://github.com/facebook/fishhook) ⭐️⭐️⭐️⭐️⭐️
 
 
-		
+
 * <a name="ios-book"></a>**Book**
 	* Zen and the Art of the Objective-C Craftsmanship. [objc-zen-book](https://github.com/objc-zen/objc-zen-book#yoda-conditions) ⭐️⭐️⭐️⭐️
 	* ObjC Zen Book 中文翻译. [objc-zen-book-cn](https://github.com/oa414/objc-zen-book-cn) ⭐️⭐️⭐️
@@ -219,7 +232,6 @@
 	* This script is use to generator ios app icons more easier. [ios-icon-generator](https://github.com/smallmuou/ios-icon-generator) ⭐️⭐️⭐️⭐️
 	* 脚本接收一个productID作为参数（iTunes里面链接的ID），并抓取所以评论此app的用户，他们也评论了哪些其它的app。最后按其它app作为key，数量作为value聚合。 [CustomersAlsoReviewed-AppStore](https://github.com/ewangke/CustomersAlsoReviewed-AppStore) ⭐️⭐️
     * 上传 ipa 文件到 蒲公英.  [pugongying](https://github.com/answer-huang/pugongying) ⭐️
-
 
 
 
@@ -451,10 +463,10 @@
 	* An implementation of task/event based asynchronous pattern. [eventproxy](https://github.com/JacksonTian/eventproxy) ⭐️⭐️⭐️
 	* Async utilities for node and the browser. [async](https://github.com/caolan/async) ⭐️⭐️⭐️⭐️
 	* Fast, flexible, and lean implementation of core jQuery designed specifically for the server. [cheerio](https://github.com/cheeriojs/cheerio) ⭐️⭐️⭐️⭐️
-	* Kue is a priority job queue backed by redis, built for node.js. [kue](https://github.com/Automattic/kue) ⭐️⭐️⭐️⭐️
 	* Pretty unicode tables for the CLI with Node.JS  [cli-table](https://github.com/Automattic/cli-table) ⭐️⭐️
 	* Expressive middleware for node.js using generators. [koajs/koa](https://github.com/koajs/koa) ⭐️⭐️⭐️⭐️⭐️
-	
+* <a name="server-php"></a>**PHP**
+    * The PHP Interpreter. [php-src](https://github.com/php/php-src) ⭐️⭐️⭐️⭐️⭐️
 * <a name="server-swift"></a>**Swift**
 * <a name="server-ruby"></a>**Ruby**
 	* A repository of geographic regions for Ruby.  [carmen](https://github.com/jim/carmen) ⭐️⭐️
@@ -465,9 +477,14 @@
 	* 🔑 Community-driven Rails Security Checklist. Contribute and share your experience.  [rails-security-checklist](https://github.com/eliotsykes/rails-security-checklist) ⭐️⭐️⭐️
 * <a name="server-go"></a>**Go**
 	* GO Simple Tunnel - a simple tunnel written in golang.[gost](https://github.com/ginuerzh/gost) ⭐️⭐️⭐️
+* <a name="server-redis"></a>**Redis**
+    * Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, HyperLogLogs, Bitmaps.  [redis](https://github.com/antirez/redis) ⭐️⭐️⭐️⭐️⭐️
+    * Medis is a beautiful, easy-to-use Mac database management application for Redis.[http://getmedis.com](http://getmedis.com).  [medis](https://github.com/luin/medis) ⭐️⭐️⭐️⭐️
+    * A fast, light-weight proxy for memcached and redis. [twemproxy](https://github.com/twitter/twemproxy) ⭐️⭐️⭐️⭐️
+    * Kue is a priority job queue backed by redis, built for node.js. [kue](https://github.com/Automattic/kue) ⭐️⭐️⭐️⭐️
+    * memcached development tree. [memcached](https://github.com/memcached/memcached) ⭐️⭐️⭐️⭐️
 * <a name="server-sql"></a>**SQL**
 	* A simple business intelligence application. [bdash](https://github.com/bdash-app/bdash) ⭐️⭐️⭐️⭐️
-	* Medis is a beautiful, easy-to-use Mac database management application for Redis.[http://getmedis.com](http://getmedis.com).  [medis](https://github.com/luin/medis) ⭐️⭐️⭐️⭐️
 	* A pure node.js JavaScript Client implementing the MySql protocol. [mysql](https://github.com/mysqljs/mysql) ⭐️⭐️⭐️⭐️
 * <a name="server-java"></a>**Java**
 	* Most popular Mocking framework for unit tests written in Java. [mockito](https://github.com/mockito/mockito) ⭐️⭐️⭐️⭐️⭐️
@@ -504,6 +521,8 @@
 
 ##<a name="shell"></a>Shell
 * The most awesome Powerline theme for ZSH around! [powerlevel9k](https://github.com/bhilburn/powerlevel9k) ⭐️⭐️
+* JSON output from a shell [jpmens/jo](https://github.com/jpmens/jo) ⭐️⭐️⭐️
+* Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。 [linux-command](https://github.com/jaywcjlove/linux-command) ⭐️⭐️⭐️⭐️⭐️
 
 
 ##<a name="python"></a>Python
@@ -512,7 +531,6 @@
 
 * 基于 python3.4 和 django1.9 的 Blog 项目.  [django-blog-tutorial](https://github.com/zmrenwu/django-blog-tutorial) ⭐️⭐️⭐️
 * Project documentation with Markdown. [mkdocs](https://github.com/mkdocs/mkdocs) ⭐️⭐️⭐️⭐️
-* A transparent bridge between Git and Dropbox - use a Dropbox (shared) folder as a Git remote! 🎁 [git-remote-dropbox](https://github.com/anishathalye/git-remote-dropbox) ⭐️⭐️⭐️
 * Apple 网络服务加速配置。（少数派、Appinn、Mac玩儿法 推荐） [AppleDNS](https://github.com/gongjianhui/AppleDNS) ⭐️⭐️⭐️
 * [URL](curl statistics made simple)  [httpstat](https://github.com/reorx/httpstat) ⭐️⭐️⭐️
 * Apache Libcloud is a Python library which hides differences between different cloud provider APIs and allows you to manage different cloud resources through a unified and easy to use API. [libcloud](https://github.com/apache/libcloud) ⭐️⭐️
@@ -521,8 +539,6 @@
 * Modern command line HTTP client – user-friendly curl alternative with intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, etc. [httpie](https://github.com/jkbrzt/httpie) ⭐️⭐️⭐️⭐️⭐️
 * Command-line program to download videos from YouTube.com and other video sites. [youtube-dl](https://github.com/rg3/youtube-dl) ⭐️⭐️
 * An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.  [mitmproxy](https://github.com/mitmproxy/mitmproxy) ⭐️⭐️⭐️⭐️
-* Searches through git repositories for high entropy strings, digging deep into commit history [truffleHog](https://github.com/dxa4481/truffleHog) ⭐️
-
 * 🏡 Open-source home automation platform running on Python 3.  [home-assistant](https://github.com/home-assistant/home-assistant) ⭐️⭐️⭐️⭐️
 * Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more.  [pandas](https://github.com/pandas-dev/pandas) ⭐️⭐️⭐️⭐️⭐️
 
@@ -538,6 +554,8 @@
 * A typeface designed for source code. [Hack](https://github.com/chrissimpkins/Hack) ⭐️⭐️⭐️⭐️
 * gmail backup software. [gmvault](https://github.com/gaubert/gmvault) ⭐️⭐️
 
+* A modern, hackable, featureful, OpenGL based terminal emulator. [kitty](https://github.com/kovidgoyal/kitty) ⭐️
+
 
 
 
@@ -546,7 +564,14 @@
 	* 🐳 A curated list of Docker resources and projects [awesome-docker](https://github.com/veggiemonk/awesome-docker) ⭐️⭐️⭐️⭐️
 
 
-
+## <a name="git"></a>Git
+* Git Source Code Mirror - This is a publish-only repository and all pull requests are ignored. Please follow Documentation/SubmittingPatches procedure for any of your improvements. [git](https://github.com/git/git) ⭐️⭐️⭐️⭐️
+* Good-lookin' diffs. Actually… nah… The best-lookin' diffs. 🎉  [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) ⭐️⭐️⭐️⭐️⭐️
+* Hosting git repositories -- Gitolite allows you to setup git hosting on a central server, with very fine-grained access control and many (many!) more powerful features. [gitolite](https://github.com/sitaramc/gitolite) ⭐️⭐️⭐️⭐️⭐️
+* Git Trident. [Trident](https://github.com/somerobots/Trident) ⭐️⭐️
+* Searches through git repositories for high entropy strings, digging deep into commit history [truffleHog](https://github.com/dxa4481/truffleHog) ⭐️
+* A transparent bridge between Git and Dropbox - use a Dropbox (shared) folder as a Git remote! 🎁 [git-remote-dropbox](https://github.com/anishathalye/git-remote-dropbox) ⭐️⭐️⭐️
+* A Git platform powered by Scala with easy installation, high extensibility & github API compatibility. [gitbucket](https://github.com/gitbucket/gitbucket) ⭐️
 
 
 
@@ -570,6 +595,7 @@
 	* Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy. Avoid writing scripts or custom code to deploy and update your applications— automate in a language that approaches plain English, using SSH, with no agents to install on remote systems. [ansible](https://github.com/ansible/ansible) ⭐️⭐️⭐️⭐️⭐️
 	* :octocat: 使用 Python Flask + SQLAchemy + Celery + Redis + React 开发的用于迅速搭建并使用 WebHook 进行自动化部署和运维，支持 Github / GitLab / Gogs / GitOsc。[git-webhook](https://github.com/NetEaseGame/git-webhook) ⭐️⭐️⭐️
     * Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence. [spinnaker](https://github.com/spinnaker/spinnaker) ⭐️⭐️⭐️
+    * Get control of your servers. Simple. Effective. Awesome. [netdata](https://github.com/firehol/netdata) ⭐️⭐️⭐️⭐️⭐️
 
 
 * <a name="#distribution-plan-data-analytics"></a>**数据分析**
@@ -587,7 +613,6 @@
 
 
 ##<a name="project"></a>Project
-* Git Trident. [Trident](https://github.com/somerobots/Trident) ⭐️⭐️
 * The open-source Trello-like kanban (built with Meteor).[wekan](https://github.com/wekan/wekan) ⭐️⭐️⭐️⭐️⭐️
 * A habit tracker app which treats your goals like a Role Playing Game. [habitica](https://github.com/HabitRPG/habitica) ⭐️⭐️⭐️⭐️
 * A simple, powerful publishing platform. [Ghost](https://github.com/TryGhost/Ghost) ⭐️⭐️⭐️⭐️⭐️
@@ -598,13 +623,15 @@
 
 * The official source code repository for the calibre ebook manager [calibre](https://github.com/kovidgoyal/calibre) ⭐️⭐️⭐️
 
+* OBS - Free and open source software for live streaming and screen recording [obs-studio](https://github.com/jp9000/obs-studio) ⭐️⭐️⭐️⭐️⭐️
+
+
+
 ##<a name="other"></a>Other
 * <a name="other-tools"></a>**工具**
 	* A stock trading bot powered by Trump tweets.[trump2cash](https://github.com/maxbbraun/trump2cash) ⭐️
-	* Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。 [linux-command](https://github.com/jaywcjlove/linux-command) ⭐️⭐️⭐️⭐️⭐️
 	* https://github.com/joeblau/gitignore.io. [gitignore.io](https://github.com/joeblau/gitignore.io) ⭐️⭐️
 	* https://github.com/snide/sphinx_rtd_theme. [sphinx_rtd_theme](https://github.com/snide/sphinx_rtd_theme) ⭐️⭐️⭐️
-	* A Git platform powered by Scala with easy installation, high extensibility & github API compatibility. [gitbucket](https://github.com/gitbucket/gitbucket) ⭐️
 	* An open IDE for web and native mobile development, built on top of Atom.[nuclide](https://github.com/facebook/nuclide) ⭐️⭐️⭐️
 	* Haxe - The Cross-Platform Toolkit.[URL](https://github.com/HaxeFoundation/haxe) ⭐️
 	* Some setup scripts for security research tools. [ctf-tools](https://github.com/zardus/ctf-tools) ⭐️⭐️⭐️⭐️⭐️
@@ -619,11 +646,9 @@
 	* e text editor. [e](https://github.com/etexteditor/e) ⭐️⭐️
 	* 基于python的开源量化交易平台开发框架. [vnpy](https://github.com/vnpy/vnpy) ⭐️⭐️⭐️
     * A complete and graceful API for Wechat. 微信个人号接口、微信机器人及命令行微信，三十行即可自定义个人号机器人。 [ItChat](https://github.com/littlecodersh/ItChat) ⭐️⭐️⭐️⭐️⭐️
-
+    * 准确率99.9%的ip地址定位库，0.0x毫秒级查询，数据库文件大小只有1.5M，提供了java,php,c,python,nodejs,golang查询绑定和Binary,B树,内存三种查询算法，妈妈再也不用担心我的ip地址定位！ [ip2region](https://github.com/lionsoul2014/ip2region) ⭐️
     * 12306 图片验证码识别测试. [fuck12306](https://github.com/andelf/fuck12306) ⭐️⭐️⭐️
-
     * 📠 Convert various source codes into pdf file with custom features.  [code2pdf](https://github.com/tushar-rishav/code2pdf) ⭐️⭐️⭐️⭐️
-
 
 * <a name="other-useful"></a>**干货**
 	*  Swiss Army Knife for macOS. [m-cli](https://github.com/rgcr/m-cli) ⭐️⭐️⭐️⭐️⭐️
@@ -635,16 +660,6 @@
 	* Based on a true story. [hacker-scripts](https://github.com/NARKOZ/hacker-scripts) ⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
 	* Vim configuration files for Elixir  [vim-elixir](https://github.com/elixir-lang/vim-elixir) ⭐️⭐️
 
-* <a name="other-learning"></a>**学习**
-	* The [https://freeCodeCamp.com](https://freeCodeCamp.com) open source codebase and curriculum. Learn to code and help nonprofits. ⭐️⭐️⭐️⭐️⭐️
-	* 全栈工程师培训材料 [jstraining](https://github.com/ruanyf/jstraining) ⭐️⭐️⭐️⭐️⭐️
-	* freecodecamp 是一个自由的开源编程社区，它致力于抹平教育差距，让像你我一样的平凡人也能享受到花费巨资才可能享受到的优质教育。 [freecodecamp.cn](https://github.com/FreeCodeCampChina/freecodecamp.cn) ⭐️⭐️⭐️⭐️⭐️
-	* 📕《Node.js 包教不包会》 by alsotang.  [node-lessons](https://github.com/alsotang/node-lessons) ⭐️⭐️⭐️⭐️
-
-* <a name="other-arithmetic"></a>**算法/数据结构**
-	* Computer Science Cheatsheets. [succinct-cybernetics](https://github.com/espadrine/succinct-cybernetics) ⭐️⭐️⭐️⭐️
-	* 🏰 All the things you didn't know you wanted to know about data structures. [itsy-bitsy-data-structures](https://github.com/thejameskyle/itsy-bitsy-data-structures) ⭐️⭐️⭐️⭐️⭐️
-	* Algorithm Visualizer.  [AlgorithmVisualizer](https://github.com/parkjs814/AlgorithmVisualizer) ⭐️⭐️⭐️⭐️⭐️
 
 
 * <a name="other-other"></a>**Other Framework & Engine**
@@ -656,7 +671,27 @@
 	* OpenGL Overload: OpenGL implementation on top of Vulkan.  [glo](https://github.com/g-truc/glo) ⭐️⭐️
 	* Dolphin is a GameCube / Wii emulator, allowing you to play games for these two platforms on PC with improvements.  [dolphin](https://github.com/dolphin-emu/dolphin)  ⭐️⭐️⭐️
 	* Import OpenStreetMap data into Unreal Engine. [StreetMap](https://github.com/ue4plugins/StreetMap) ⭐️⭐️
+    * Linux kernel source tree. [linux](https://github.com/torvalds/linux) ⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
+    * Minoca operating system. [minoca/os](https://github.com/minoca/os) ⭐️⭐️
+    * A distribution of Nginx with some advanced features [alibaba/tengine](https://github.com/alibaba/tengine) ⭐️⭐️⭐️
+    * stb single-file public domain libraries for C/C++. [stb](https://github.com/nothings/stb) ⭐️⭐️⭐️
+    * Simple and portable (but not inflexible) GUI library in C that uses the native GUI technologies of each platform it supports. [libui](https://github.com/andlabs/libui) ⭐️⭐️⭐️
+    * A single-header ANSI C gui library. [nuklear](https://github.com/vurtun/nuklear) ⭐️⭐️⭐️⭐️⭐️
 
+* <a name="other-learning"></a>**学习**
+    * The [https://freeCodeCamp.com](https://freeCodeCamp.com) open source codebase and curriculum. Learn to code and help nonprofits. ⭐️⭐️⭐️⭐️⭐️
+    * 全栈工程师培训材料 [jstraining](https://github.com/ruanyf/jstraining) ⭐️⭐️⭐️⭐️⭐️
+    * freecodecamp 是一个自由的开源编程社区，它致力于抹平教育差距，让像你我一样的平凡人也能享受到花费巨资才可能享受到的优质教育。 [freecodecamp.cn](https://github.com/FreeCodeCampChina/freecodecamp.cn) ⭐️⭐️⭐️⭐️⭐️
+    * 📕《Node.js 包教不包会》 by alsotang.  [node-lessons](https://github.com/alsotang/node-lessons) ⭐️⭐️⭐️⭐️
+    * 从零开始的 JSON 库教程.  [json-tutorial](https://github.com/miloyip/json-tutorial) ⭐️⭐️⭐️⭐️⭐️
+
+
+* <a name="other-arithmetic"></a>**算法/数据结构**
+    * Computer Science Cheatsheets. [succinct-cybernetics](https://github.com/espadrine/succinct-cybernetics) ⭐️⭐️⭐️⭐️
+    * 🏰 All the things you didn't know you wanted to know about data structures. [itsy-bitsy-data-structures](https://github.com/thejameskyle/itsy-bitsy-data-structures) ⭐️⭐️⭐️⭐️⭐️
+    * Algorithm Visualizer.  [AlgorithmVisualizer](https://github.com/parkjs814/AlgorithmVisualizer) ⭐️⭐️⭐️⭐️⭐️
+    * A library of generic data structures. [Collections-C](https://github.com/srdja/Collections-C) ⭐️⭐️⭐️
+    
 ##<a name="interview"></a>面试
 * 笔试面试知识整理 [interview](https://github.com/HIT-Alibaba/interview) ⭐️⭐️⭐️⭐️⭐️
 
