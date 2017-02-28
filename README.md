@@ -63,7 +63,7 @@
 	* [Swift](#server-swift)
 	* [Go](#server-go)
     * [Redis](#server-redis)
-	* [SQL](#server-sql)
+	* [DB](#server-sql)
 	* [Java](#server-java)
 	* [Python](#server-python)
 * [Android](#android)
@@ -131,7 +131,7 @@
 * Magnificent app which corrects your previous console command. [thefuck](https://github.com/nvbn/thefuck) ⭐️⭐️⭐️⭐️⭐️⭐️⭐️
 * An independent, student-led replication of DeepMind's 2016 Nature publication, "Mastering the game of Go with deep neural networks and tree search" (Nature 529, 484-489, 28 Jan 2016), details of which can be found on their website [RocAlphaGo](https://github.com/Rochester-NRT/RocAlphaGo) ⭐️⭐️⭐️⭐️
 * Deep Learning library for Python. Convnets, recurrent neural networks, and more. Runs on Theano or TensorFlow. [keras](https://github.com/fchollet/keras) ⭐️⭐️⭐️⭐️⭐️
-
+* Deep Learning for Java, Scala & Clojure on Hadoop & Spark With GPUs - From Skymind. [deeplearning4j](https://github.com/deeplearning4j/deeplearning4j) ⭐️⭐️⭐️⭐️
 
 ##<a name="ios"></a>iOS
 * <a name="ios-objective-c"></a>**Objective-C**
@@ -234,9 +234,11 @@
     * 上传 ipa 文件到 蒲公英.  [pugongying](https://github.com/answer-huang/pugongying) ⭐️
     * Apple iOS/macOS Provisioning Profiles management,.provisionprofile, .mobileprovision files manager tool for mac. [ProfilesManager](https://github.com/shaojiankui/ProfilesManager) ⭐️⭐️⭐️⭐️
     * 💳 PHP class for creating passes for Wallet on iOS.  [PHP-PKPass](https://github.com/tschoffelen/PHP-PKPass) ⭐️⭐️⭐️
-
+    * A library for converting Adobe AE shape based animations to a data format and playing it back on Android and iOS devices. https  [Keyframes](https://github.com/facebookincubator/Keyframes) ⭐️⭐️⭐️⭐️⭐️
+    * A Java to iOS Objective-C translation tool and runtime. [j2objc](https://github.com/google/j2objc) ⭐️⭐️
 
 ##<a name="hybrid"></a>Hybrid
+* A framework for building Mobile cross-platform UI. [alibaba/weex](https://github.com/alibaba/weex) ⭐️⭐️⭐️⭐️⭐️
 * NativeScript is an open source framework for building truly native mobile apps with JavaScript. Use web skills, like Angular, FlexBox and CSS, and get native UI and performance on iOS and Android. [NativeScript](https://github.com/NativeScript/NativeScript) ⭐️⭐️⭐️
 * The source for the Firebase codelab for building a cross-platform chat app. [friendlychat](https://github.com/firebase/friendlychat) ⭐️⭐️
 * Yoga is a cross-platform layout engine which implements Flexbox. Yoga enables maximum collaboration within your team by implementing an API familiar to many designers and opening it up to developers across different platforms. [yoga](https://github.com/facebook/yoga) ⭐️⭐️⭐️⭐️
@@ -249,7 +251,7 @@
 * React Native Mapview component for iOS + Android. [react-native-maps](https://github.com/airbnb/react-native-maps) ⭐️⭐️⭐️⭐️⭐️
 * The new JavaScript- and API-powered WordPress.com  [wp-calypso](https://github.com/Automattic/wp-calypso) ⭐️⭐️⭐️⭐️⭐️
 * Mars is a cross-platform network component developed by WeChat.  [mars](https://github.com/Tencent/mars) ⭐️⭐️⭐️⭐️⭐️
-
+* A <Video /> component for react-native.  [react-native-video](https://github.com/react-native-community/react-native-video) ⭐️⭐️⭐️
 
 
 ##<a name="fe"></a>FE
@@ -486,12 +488,22 @@
     * A fast, light-weight proxy for memcached and redis. [twemproxy](https://github.com/twitter/twemproxy) ⭐️⭐️⭐️⭐️
     * Kue is a priority job queue backed by redis, built for node.js. [kue](https://github.com/Automattic/kue) ⭐️⭐️⭐️⭐️
     * memcached development tree. [memcached](https://github.com/memcached/memcached) ⭐️⭐️⭐️⭐️
-* <a name="server-sql"></a>**SQL**
+    * A blazingly small and sane redis java client. [jedis](https://github.com/xetorthio/jedis) ⭐️⭐️⭐️⭐️
+* <a name="server-sql"></a>**DB**
 	* A simple business intelligence application. [bdash](https://github.com/bdash-app/bdash) ⭐️⭐️⭐️⭐️
 	* A pure node.js JavaScript Client implementing the MySql protocol. [mysql](https://github.com/mysqljs/mysql) ⭐️⭐️⭐️⭐️
+    * MongoDB object modeling designed to work in an asynchronous environment. [mongoose](https://github.com/Automattic/mongoose) ⭐️⭐️⭐️⭐️⭐️
+    
 * <a name="server-java"></a>**Java**
 	* Most popular Mocking framework for unit tests written in Java. [mockito](https://github.com/mockito/mockito) ⭐️⭐️⭐️⭐️⭐️
-	* MongoDB object modeling designed to work in an asynchronous environment. [mongoose](https://github.com/Automattic/mongoose) ⭐️⭐️⭐️⭐️⭐️
+    * MockServer enables easy mocking of any system you integrate with via HTTP or HTTPS with clients written in Java, JavaScript and Ruby. MockServer also includes a proxy that introspects all proxied traffic including encrypted SSL traffic and supports Port Forwarding, Web Proxying (i.e. HTTP proxy), HTTPS Tunneling Proxying (using HTTP CONNECT) and…. [mockserver](https://github.com/jamesdbloom/mockserver) ⭐️
+    * JetBrains theme of Material Theme [material-theme-jetbrains](https://github.com/ChrisRM/material-theme-jetbrains) ⭐️⭐️⭐️
+    * Project Malmo is a platform for Artificial Intelligence experimentation and research built on top of Minecraft. We aim to inspire a new generation of research into challenging new problems presented by this unique environment. [Microsoft/malmo](https://github.com/Microsoft/malmo) ⭐️⭐️
+    *  remote procedure call(RPC) framework for rapid development of high performance distributed services.  [weibocom/motan](https://github.com/weibocom/motan) ⭐️⭐️
+    * 📢 Dubbo is a distributed, high performance RPC framework enpowering applications with service import/export capabilities. [alibaba/dubbo](https://github.com/alibaba/dubbo) ⭐️⭐️⭐️⭐️
+    * ♨️ 为监控而生的数据库连接池！[alibaba/druid](https://github.com/alibaba/druid) ⭐️⭐️⭐️⭐️⭐️
+    * Anthelion is a plugin for Apache Nutch to crawl semantic annotations within HTML pages  [yahoo/anthelion](https://github.com/yahoo/anthelion)    ⭐️⭐️⭐️
+    * Enterprise Stream Process Engine. [alibaba/jstorm](https://github.com/alibaba/jstorm)  ⭐️⭐️⭐️
 * <a name="server-python"></a>**Python**
 	* The Web framework for perfectionists with deadlines.  [django](https://github.com/django/django) ⭐️⭐️⭐️⭐️⭐️
 	* Certbot, previously the Let's Encrypt Client, is EFF's tool to obtain certs from Let's Encrypt, and (optionally) auto-enable HTTPS on your server. It can also act as a client for any other CA that uses the ACME protocol.  [certbot](https://github.com/certbot/certbot) ⭐️⭐️⭐️⭐️⭐️
@@ -502,8 +514,32 @@
 ##<a name="android"></a>Android
 * Android library project for cropping images [android-crop](https://github.com/jdamcd/android-crop) ⭐️⭐️
 * Colored logcat script which only shows log entries for a specific application package. [pidcat](https://github.com/JakeWharton/pidcat) ⭐️⭐️
-
-
+* Type-safe HTTP client for Android and Java by Square, Inc. [retrofit](https://github.com/square/retrofit) ⭐️⭐️⭐️⭐️
+* 用于做Path动画的自定义View。 I have a path.I have a view. (Oh~),Path(Anim)View.. [PathAnimView](https://github.com/mcxtzhang/PathAnimView) ⭐️⭐️
+* RecyclerView侧滑菜单，长按拖拽，滑动删除，自动加载更多，和ViewPager结合使用，和任何下拉刷新框架结合使用。[SwipeRecyclerView](https://github.com/yanzhenjie/SwipeRecyclerView) ⭐️⭐️
+* An Asynchronous HTTP Library for Android. [android-async-http](https://github.com/loopj/android-async-http) ⭐️⭐️⭐️⭐️⭐️
+* Android Http标准框架，底层可动态切换OkHttp、URLConnection，与RxJava完美结合，比Retrofit更简单易用。 [NoHttp](https://github.com/yanzhenjie/NoHttp) ⭐️⭐️⭐️⭐️
+* 仿网易云音乐 安卓版，netease android，音乐播放器 在线 下载. [remusic](https://github.com/aa112901/remusic) ⭐️⭐️⭐️
+* Makes it easy to create beautiful about screens for your apps. [material-about-library](https://github.com/daniel-stoneuk/material-about-library) ⭐️⭐️ 
+* LyricView is a powerful and flexible custom view to display lyrics within music player under Android [LyricViewDemo](https://github.com/zhengken/LyricViewDemo) ⭐️⭐️
+* An imageView can auto scroll with device rotating. [PanoramaImageView](https://github.com/gjiazhe/PanoramaImageView) ⭐️⭐️⭐️
+* Nice loading animations for Android. [AVLoadingIndicatorView](https://github.com/81813780/AVLoadingIndicatorView) ⭐️⭐️⭐️⭐️
+* Tap Bar with infinite scrolling.  [LoopBar](https://github.com/Cleveroad/LoopBar) ⭐️
+* Android logger, simple and pretty, powerful and flexible, all you need is here (updating). [xLog](https://github.com/elvishew/xLog) ⭐️⭐️
+* 本项目是Android快速开发框架，采用AndroidStudio进行开发。 预想集成工具包,采用MVP开发模式,EventBus数据分发,沉浸式状态栏,ORM,网络请求(HTTPClint,Volley,OkHttps),数据解析,依赖注入(AndroidAnnotations),xutils,图片异步加载，二维码扫描等等，后续会进行逐步添加.  [FastDev4Android](https://github.com/jiangqqlmj/FastDev4Android) ⭐️⭐️⭐️
+* 安卓App热补丁动态修复框架. [HotFix](https://github.com/dodola/HotFix) ⭐️⭐️
+* Tinker is a hot-fix solution library for Android, it supports dex, library and resources update without reinstall apk.  [tinker](https://github.com/Tencent/tinker)  ⭐️⭐️⭐️⭐️⭐️
+* Realtime interpolator editor(Inspired by Facebook Rebound) [RapidInterpolator](https://github.com/MartinRGB/RapidInterpolator) ⭐️
+* Simple habit tracker for Android. [uhabits](https://github.com/iSoron/uhabits) ⭐️⭐️
+* Imitation of Ali credit sesame new old ring view.  [CreditSesameRingView](https://github.com/HotBitmapGG/CreditSesameRingView) ⭐️⭐️⭐️
+* Pulsar - distributed pub-sub messaging system.  [Pulsar](https://github.com/yahoo/pulsar)  ⭐️⭐️
+* An Android Animation library which easily add itemanimator to RecyclerView items.   [recyclerview-animators](https://github.com/wasabeef/recyclerview-animators) ⭐️⭐️
+* 🚄 A fast JSON parser/generator for Java. [alibaba/fastjson](https://github.com/alibaba/fastjson) ⭐️⭐️⭐️⭐️
+* A library that gives depth to Views. [Depth-LIB-Android-](https://github.com/danielzeller/Depth-LIB-Android-) ⭐️⭐️⭐️
+* 💸 WeChat's lucky money helper (微信抢红包插件). An Android app that helps you snatch red packets in WeChat groups.  [WeChatLuckyMoney](https://github.com/geeeeeeeeek/WeChatLuckyMoney) ⭐️⭐️⭐️⭐️
+* android orm, bitmap, http, view inject... [xUtils3](https://github.com/wyouflf/xUtils3) ⭐️⭐️⭐️
+* Vim emulation plug-in for IDEs based on the IntelliJ platform. [ideavim](https://github.com/JetBrains/ideavim) ⭐️⭐️
+* An application demoing meaningful motion on Android  [animate](https://github.com/hitherejoe/animate) ⭐️⭐️⭐️
 
 
 ##<a name="ue"></a>UI/UE
