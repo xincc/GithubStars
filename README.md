@@ -66,6 +66,7 @@
 	* [DB](#server-sql)
 	* [Java](#server-java)
 	* [Python](#server-python)
+    * [BigData](#server-bigdata)
 * [Android](#android)
 * [UI/UE](#ue)
 	* [Sketch](#ue-sketch)
@@ -105,6 +106,7 @@
 * <a name="machine-learning-photos"></a>**Photos**
 	* A simple interface for editing natural photos with generative neural networks. [Neural-Photo-Editor](https://github.com/ajbrock/Neural-Photo-Editor) ⭐️⭐️
     * Generate image analogies using neural matching and blending.  [image-analogies](https://github.com/awentzonline/image-analogies) ⭐️⭐️⭐️
+    * Image-to-image translation using conditional adversarial nets. [pix2pix](https://github.com/phillipi/pix2pix) ⭐️⭐️⭐️
 * An absolute beginner's guide to Machine Learning and Image Classification with Neural Networks [have-fun-with-machine-learning](https://github.com/humphd/have-fun-with-machine-learning) ⭐️⭐️⭐️
 * Universe: a software platform for measuring and training an AI's general intelligence across the world's supply of games, websites and other applications. [universe](https://github.com/openai/universe) ⭐️⭐️⭐️
 
@@ -112,12 +114,14 @@
 
 * scikit-learn: machine learning in Python.  [scikit-learn](https://github.com/scikit-learn/scikit-learn) ⭐️⭐️⭐️⭐️⭐️
 
+* Memory Networks implementations. [facebook/MemNN](https://github.com/facebook/MemNN) ⭐️⭐️
 
 
 
 ## <a name="deep-learning"></a>Deep Learning
 * <a name="deep-learning-tensorflow"></a>**Tensorflow**
-	* Computation using data flow graphs for scalable machine learning .  [tensorflow](https://github.com/tensorflow/tensorflow) ⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
+    * 谷歌全新开源人工智能系统TensorFlow官方文档中文版. [jikexueyuanwiki/tensorflow-zh](https://github.com/jikexueyuanwiki/tensorflow-zh) ⭐️⭐️⭐️⭐️
+    * Computation using data flow graphs for scalable machine learning .  [tensorflow](https://github.com/tensorflow/tensorflow) ⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
 	* TensorFlowOnSpark brings TensorFlow programs onto Apache Spark clusters [TensorFlowOnSpark](https://github.com/yahoo/TensorFlowOnSpark) ⭐️⭐️⭐️⭐️
     * Replicating AlphaGo's architecture in a readable manner. [MuGo](https://github.com/brilee/MuGo) ⭐️⭐️
     * TensorFlow implementation of "Learning from Simulated and Unsupervised Images through Adversarial Training"  [simulated-unsupervised-tensorflow](https://github.com/carpedm20/simulated-unsupervised-tensorflow) ⭐️⭐️
@@ -166,6 +170,7 @@
 		
 * <a name="ios-swift"></a>**Swift** [OpenSource](https://github.com/apple/swift) ⭐️⭐️⭐️⭐️⭐️
 	* <a name="ios-swift-code-style"></a>**Code Style**
+        * 中文版 Apple 官方 Swift 教程《The Swift Programming Language》. [numbbbbb/the-swift-programming-language-in-chinese](https://github.com/numbbbbb/the-swift-programming-language-in-chinese) ⭐️⭐️⭐️⭐️⭐️
 		* Meta-programming for Swift, stop writing boilerplate code. It scans your source code, applies your personal templates and generates Swift code for you, allowing you to use meta-programming techniques to save time and decrease potential mistakes. [Sourcery](https://github.com/krzysztofzablocki/Sourcery) ⭐️⭐️⭐️⭐️⭐️
 		* <mark>Promises</mark> & Async/Await - Write better async code in Swift. [Hydra](https://github.com/malcommac/Hydra) ⭐️⭐️⭐️⭐️
 		* Swift to JavaScript transpiler. [shift-js](https://github.com/shift-js/shift-js) ⭐️⭐️⭐️
@@ -236,6 +241,10 @@
     * 💳 PHP class for creating passes for Wallet on iOS.  [PHP-PKPass](https://github.com/tschoffelen/PHP-PKPass) ⭐️⭐️⭐️
     * A library for converting Adobe AE shape based animations to a data format and playing it back on Android and iOS devices. https  [Keyframes](https://github.com/facebookincubator/Keyframes) ⭐️⭐️⭐️⭐️⭐️
     * A Java to iOS Objective-C translation tool and runtime. [j2objc](https://github.com/google/j2objc) ⭐️⭐️
+    * HomeControl is an implementation of the HomeKit Accessory Protocol (HAP) in Go. [brutella/hc](https://github.com/brutella/hc) ⭐️⭐️⭐️⭐️
+    * Searchable full-text transcripts of WWDC sessions.   [ASCIIwwdc/asciiwwdc.com](https://github.com/ASCIIwwdc/asciiwwdc.com) ⭐️⭐️
+
+
 
 ##<a name="hybrid"></a>Hybrid
 * A framework for building Mobile cross-platform UI. [alibaba/weex](https://github.com/alibaba/weex) ⭐️⭐️⭐️⭐️⭐️
@@ -252,6 +261,8 @@
 * The new JavaScript- and API-powered WordPress.com  [wp-calypso](https://github.com/Automattic/wp-calypso) ⭐️⭐️⭐️⭐️⭐️
 * Mars is a cross-platform network component developed by WeChat.  [mars](https://github.com/Tencent/mars) ⭐️⭐️⭐️⭐️⭐️
 * A <Video /> component for react-native.  [react-native-video](https://github.com/react-native-community/react-native-video) ⭐️⭐️⭐️
+* A framework for building native UWP and WPF apps with React. [Microsoft/react-native-windows](https://github.com/Microsoft/react-native-windows) ⭐️⭐️
+
 
 
 ##<a name="fe"></a>FE
@@ -259,6 +270,10 @@
 	* A continuously expanded list of framework/libraries and tools I used/want to use when building things on the web. Mostly **Javascript stuff**.[frontend-stuff](https://github.com/moklick/frontend-stuff) ⭐️⭐️⭐️⭐️
 	* 😺猫的前端回忆 These share data are from my usual work and learning [Good-text-Share](https://github.com/Wscats/Good-text-Share) ⭐️⭐️⭐️
 	* 前端技能汇总 Frontend Knowledge Structure.[fks](https://github.com/JacksonTian/fks) ⭐️⭐️⭐️⭐️
+    * 一个全栈增长工程师的练手项目集. A Growth Engineering Idea in Action. [phodal/ideabook](https://github.com/phodal/ideabook) ⭐️⭐️⭐️
+    * 腾讯移动Web前端知识库. [AlloyTeam/Mars](https://github.com/AlloyTeam/Mars) ⭐️⭐️⭐️⭐️
+    * StuQ 技能图谱. [TeamStuQ/skill-map](https://github.com/TeamStuQ/skill-map) ⭐️⭐️⭐️⭐️
+
 * <a name="fe-react"></a>**React**
 	* A declarative, efficient, and flexible JavaScript library for building user interfaces. [react](https://github.com/facebook/react) ⭐️⭐️⭐️⭐️⭐️
 	* React Starter Kit — isomorphic web app boilerplate (Node.js, Express, GraphQL, React.js, Babel, PostCSS, Webpack, Browsersync). [URL](https://github.com/kriasoft/react-starter-kit)
@@ -273,15 +288,26 @@
 	* Component library for making games with React & React Native.[react-game-kit](https://github.com/FormidableLabs/react-game-kit) ⭐️⭐️⭐️
 	* A Select control built with and for React JS. [react-select](https://github.com/JedWatson/react-select) ⭐️⭐️⭐️⭐️
 	* A set of React components implementing Google's Material Design specification with the power of CSS Modules. [react-toolbox](https://github.com/react-toolbox/react-toolbox)  ⭐️⭐️⭐️⭐️
+    * A React-based UI toolkit for the web. [palantir/blueprint](https://github.com/palantir/blueprint) ⭐️⭐️⭐️⭐️
+    * 🐜 A UI Design Language.一套企业级的 UI 设计语言和 React 实现。 [ant-design/ant-design](https://github.com/ant-design/ant-design) ⭐️⭐️⭐️⭐️
+
+
 * <a name="fe-angular"></a>**Angular**
+    * One framework. Mobile & desktop. [angular/angular](https://github.com/angular/angular) ⭐️⭐️⭐️⭐️⭐️
 	* AngularJS - HTML enhanced for web apps! [angular.js](https://github.com/angular/angular.js) ⭐️⭐️⭐️⭐️⭐️
 	* An advanced Angular seed project with support for ngrx/store, ngrx/effects, ngx-translate, angulartics2, lodash, NativeScript (*native* mobile), Electron (Mac, Windows and Linux desktop) and more.[angular-seed-advanced](https://github.com/NathanWalker/angular-seed-advanced) ⭐️⭐️⭐️⭐️
 	* Material Design components for Angular. [material2](https://github.com/angular/material2) ⭐️⭐️⭐️
 	* Destiny Item Manager. [DestinyItemManager](https://github.com/DestinyItemManager/DIM) ⭐️⭐️
+    * An advanced Angular seed project with support for ngrx/store, ngrx/effects, ngx-translate, angulartics2, lodash, NativeScript (*native* mobile), Electron (Mac, Windows and Linux desktop) and more. [NathanWalker/angular-seed-advanced](https://github.com/NathanWalker/angular-seed-advanced) ⭐️⭐️
+    * Material Design components for Angular. [angular/material2](https://github.com/angular/material2) ⭐️⭐️⭐️⭐️
+    * Clarity Design System: UX guidelines, HTML/CSS framework, and Angular 2 components working together to craft exceptional experiences [vmware/clarity](https://github.com/vmware/clarity) ⭐️⭐️
+
 * <a name="#fe-vue"></a>**Vue**
 	* A progressive, incrementally-adoptable JavaScript framework for building UI on the web.  [vue](https://github.com/vuejs/vue) ⭐️⭐️⭐️⭐️⭐️
-	* 🏆 Swiper(slide) component for Vue.js(1.x ~ 2.x) [vue-awesome-swiper](https://github.com/surmon-china/vue-awesome-swiper) ⭐️⭐️⭐️⭐️
+    * A Vue.js 2.0 UI Toolkit for Web [ElemeFE/element](https://github.com/ElemeFE/element) ⭐️⭐️⭐️⭐️⭐️
+    * 🏆 Swiper(slide) component for Vue.js(1.x ~ 2.x) [vue-awesome-swiper](https://github.com/surmon-china/vue-awesome-swiper) ⭐️⭐️⭐️⭐️
 	* Vue.js server-side version [vue-server](https://github.com/ngsru/vue-server) ⭐️⭐️⭐️
+    * Vue UI Components based on WeUI [airyland/vux](https://github.com/airyland/vux) ⭐️⭐️⭐️
 	* vue spinners [vue-spinner](https://github.com/greyby/vue-spinner) ⭐️⭐️
 	* Effortlessly keep vue-router and vuex store in sync.[vuex-router-sync](https://github.com/vuejs/vuex-router-sync) ⭐️⭐️
 	* Framework for server-rendered Vue.js applications.[nuxt.js](https://github.com/nuxt/nuxt.js) ⭐️⭐️⭐️
@@ -289,6 +315,11 @@
 	* 🔥 A Relay inspired library for building React.js + Firebase applications. 🔥 [re-base](https://github.com/tylermcginnis/re-base) ⭐️⭐️
 	* An extremely fast, React-like JavaScript library for building modern user interfaces . [inferno](https://github.com/infernojs/inferno) ⭐️⭐️⭐️⭐️
 	* The official router for Vue.js. [vue-router](https://github.com/vuejs/vue-router) ⭐️⭐️⭐️
+    * 针对 Vue 框架移植的 We UI 框架的适配，让 mobile开发过程成为一种享受。 [aidenZou/vue-weui](https://github.com/aidenZou/vue-weui) ⭐️
+    * 🏆 Swiper(slide) component for Vue.js(1.x ~ 2.x) [surmon-china/vue-awesome-swiper](https://github.com/surmon-china/vue-awesome-swiper) ⭐️
+    * Mobile UI Components, based on Vue.js and ionic CSS. [wangdahoo/vonic](https://github.com/wangdahoo/vonic) ⭐️⭐️
+
+
 * <a name="#fe-node"></a>**Node**
 	* Loads environment variables from .env for nodejs projects.[dotenv](https://github.com/motdotla/dotenv) ⭐️⭐️⭐️
 	* 🎒 Backpack is a minimalistic build system for Node.js projects.[backpack](https://github.com/palmerhq/backpack) ⭐️⭐️⭐️
@@ -328,17 +359,33 @@
 	* 🐇 Fastest possible memoization library. [fast-memoize.js](https://github.com/caiogondim/fast-memoize.js) ⭐️⭐️
 
 * <a name="fe-css"></a>**CSS**
-	* 以移动优先（Mobile first）为理念，从小屏逐步扩展到大屏，最终实现所有屏幕适配，适应移动互联潮流。[amazeui](https://github.com/amazeui/amazeui) ⭐️⭐️
+    * Material Design 中文协同翻译 - design.1sters.com.   [1sters/material_design_zh](https://github.com/1sters/material_design_zh) ⭐️⭐️⭐️⭐️
+    * Hi. I'm a starter theme called _s, or underscores, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for. [Automattic/_s](https://github.com/Automattic/_s) ⭐️⭐️⭐️⭐️⭐️
+    * Family.scss is a set of Sass mixins which will help you to manage the style of :nth-child'ified elements, in an easy way. [LukyVj/family.scss](https://github.com/LukyVj/family.scss) ⭐️⭐️
+    * Literate Programming can be Quick and Dirty.  [jashkenas/docco](https://github.com/jashkenas/docco) ⭐️
+    * Color scheme for UI design. [yeun/open-color](https://github.com/yeun/open-color) ⭐️⭐️⭐️
+    * An emoji guide for your commit messages. 😜 [carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji) ⭐️⭐️
+    * Material Design icons by Google. [material-design-icons](https://github.com/google/material-design-icons) ⭐️⭐️⭐️⭐️⭐️
+    * A lightweight, flexible css framework that focus on mobile. [mobi-css/mobi.css](https://github.com/mobi-css/mobi.css) ⭐️⭐️⭐️
+    * 以移动优先（Mobile first）为理念，从小屏逐步扩展到大屏，最终实现所有屏幕适配，适应移动互联潮流。[amazeui](https://github.com/amazeui/amazeui) ⭐️⭐️
 	* A mighty, modern CSS linter.[stylelint](https://github.com/stylelint/stylelint) ⭐️⭐️⭐️⭐️
 	* Beautiful colour gradients for design and code. [uiGradients](https://github.com/ghosh/uiGradients) ⭐️⭐️
 	* Transforming styles with JS plugins.  [postcss](https://github.com/postcss/postcss) ⭐️⭐️⭐️⭐️⭐️
 	* Materialize, a CSS Framework based on Material Design. [materialize](https://github.com/Dogfalo/materialize) ⭐️⭐️⭐️⭐️⭐️ ![logo](https://camo.githubusercontent.com/4649c8978620e21388d1170b30a9f355d80ae713/68747470733a2f2f7261772e6769746875622e636f6d2f646f6766616c6f2f6d6174657269616c697a652f6d61737465722f696d616765732f6d6174657269616c697a652e676966)
 	* ✨ Modular, scoped CSS with ES6. [csjs](https://github.com/rtsao/csjs) ⭐️⭐️
-	
+    * Sphinx theme for readthedocs.org.  [rtfd/sphinx_rtd_theme](https://github.com/rtfd/sphinx_rtd_theme) ⭐️⭐️
+    * Generate cheat sheets for Dash. [Kapeli/cheatset](https://github.com/Kapeli/cheatset) ⭐️
+    * Awesome buttons for awesome projects! [ganapativs/bttn.css](https://github.com/ganapativs/bttn.css) ⭐️⭐️⭐️⭐️⭐️
+    * MDUI 是一个基于 Material Design 的前端框架。[zdhxiong/mdui](https://github.com/zdhxiong/mdui) ⭐️
+
+
 * <a name="fe-svg"></a>**SVG**
 	* The JavaScript library for modern SVG graphics.[Snap.svg](https://github.com/adobe-webplatform/Snap.svg) ⭐️⭐️⭐️⭐️
 	* JavaScript library to make drawing animation on SVG. [vivus](https://github.com/maxwellito/vivus) ⭐️⭐️⭐️⭐️
 	* An easy way to animate SVG elements.[walkway](https://github.com/ConnorAtherton/walkway). ⭐️⭐️⭐️
+
+
+
 * <a name="fe-component"></a>**Component**
 	* Semantic is a UI component framework based around useful principles from natural language. [Semantic-UI](https://github.com/Semantic-Org/Semantic-UI) ⭐️⭐️⭐️⭐️⭐️
 	* Fast animations with javascript and CSS transforms.[snabbt.js](https://github.com/daniel-lundin/snabbt.js) ⭐️⭐️
@@ -364,6 +411,9 @@
 	* Find Dates, Places, Times, and More. A .js library for parsing text for specific information. [Knwl.js](https://github.com/loadfive/Knwl.js) ⭐️⭐️⭐️⭐️
 	* Javascript Animation Engine. [anime](https://github.com/juliangarnier/anime) ⭐️⭐️⭐️⭐️⭐️
 	* 🚂🚋🚋🚋 - sturdy frontend framework. [choo](https://github.com/yoshuawuyts/choo) ⭐️⭐️⭐️
+    * jQuery plugin for lazy loading images. [tuupola/jquery_lazyload](https://github.com/tuupola/jquery_lazyload) ⭐️⭐️⭐️
+
+
 * <a name="fe-canvas"></a>**Canvas**
 	* Super fast HTML 5 2D rendering engine that uses webGL with canvas fallback.[pixi.js](https://github.com/pixijs/pixi.js) ⭐️⭐️⭐️⭐️
 	* BonsaiJS is a graphics library and renderer. [bonsai](https://github.com/uxebu/bonsai) ⭐️⭐️⭐️
@@ -387,10 +437,14 @@
 	* Simple HTML5 Charts using the canvas tag. [Chart.js](https://github.com/chartjs/Chart.js) ⭐️⭐️⭐️⭐️⭐️
 	* JavaScript 3D library. [three.js](https://github.com/mrdoob/three.js) ⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
 
+
+
 * <a name="fe-media"></a>**Media**
 	* HTML5 FLV Player.  [flv.js](https://github.com/Bilibili/flv.js) ⭐️⭐️⭐️⭐️
 	* Port of FFmpeg with Emscripten. [URL](https://github.com/Kagami/ffmpeg.js) ⭐️
 	* Javascript audio library for the modern web. [howler.js](https://github.com/goldfire/howler.js) ⭐️⭐️⭐️⭐️
+
+
 * <a name="fe-wechat"></a>**微信**
 	* 微信调试，各种WebView样式调试、手机浏览器的页面真机调试。便捷的远程调试手机页面、抓包工具，支持：HTTP/HTTPS，无需USB连接设备. [spy-debugger](https://github.com/wuchangming/spy-debugger) ⭐️⭐️
 	* 微信相关的 js 操作：分享、网络、菜单  [wechat.js](https://github.com/sofish/wechat.js) ⭐️⭐️⭐️⭐️
@@ -405,6 +459,8 @@
 	* 微信小程序（应用号）示例教程（豆瓣电影）, awesome wechat weixin weapp demo, wxapp demo. [zce/weapp-demo](https://github.com/zce/weapp-demo) ⭐️⭐️
 	* 微信小程序-移动端商城. [wechat-weapp-mall](https://github.com/liuxuanqiang/wechat-weapp-mall) ⭐️⭐️
 	* JX(Javascript eXtension tools) 是腾讯AlloyTeam推出的模块化、非侵入式Web前端框架，适合构建和组织工业级大规模、高效率的 Web App.  [JX](https://github.com/AlloyTeam/JX) ⭐️⭐️
+    * WeUI 是一套同微信原生视觉体验一致的基础样式库，由微信官方设计团队为微信 Web 开发量身设计，可以令用户的使用感知更加统一。包含button、cell、dialog、 progress、 toast、article、actionsheet、icon等各式元素。 [weui/weui](https://github.com/weui/weui) ⭐️⭐️⭐️⭐️
+
 * <a name="fe-package"></a>**Package**
 	* A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows to load parts for the application on demand. Through "loaders," modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.  [webpack](https://github.com/webpack/webpack)  ⭐️⭐️⭐️⭐️⭐️
 	* This is a cookbook of how to get things done with webpack. This includes most things we use at Instagram and nothing we don't use. My advice: start with this as your webpack docs, then look at the official docs for clarification. [webpack-howto](https://github.com/petehunt/webpack-howto) ⭐️⭐️⭐️⭐️
@@ -423,6 +479,7 @@
 
 
 * <a name="fe-other"></a>**Other**
+    * Adds static typing to JavaScript to improve developer productivity and code quality. [facebook/flow](https://github.com/facebook/flow) ⭐️⭐️⭐️
 	* 一个在手机网页端可以直接调用原生分享的js [nativeShare.js](https://github.com/JefferyWang/nativeShare.js) ⭐️⭐️
 	* 饥人谷出品：一个会动的简历。[animating-resume](https://github.com/jirengu-inc/animating-resume) ⭐️⭐️⭐️
 	* A very simple Chrome Extension that displays the automated image tags that Facebook has generated for your images. [show-facebook-computer-vision-tags](https://github.com/ageitgey/show-facebook-computer-vision-tags) ⭐️⭐️
@@ -469,6 +526,9 @@
 	* Fast, flexible, and lean implementation of core jQuery designed specifically for the server. [cheerio](https://github.com/cheeriojs/cheerio) ⭐️⭐️⭐️⭐️
 	* Pretty unicode tables for the CLI with Node.JS  [cli-table](https://github.com/Automattic/cli-table) ⭐️⭐️
 	* Expressive middleware for node.js using generators. [koajs/koa](https://github.com/koajs/koa) ⭐️⭐️⭐️⭐️⭐️
+    * Open source version of jianliao.com. [jianliaoim/talk-os](https://github.com/jianliaoim/talk-os) ⭐️⭐️
+
+
 * <a name="server-php"></a>**PHP**
     * The PHP Interpreter. [php-src](https://github.com/php/php-src) ⭐️⭐️⭐️⭐️⭐️
     * A PHP Framework For Web Artisans. [laravel](https://github.com/laravel/laravel) ⭐️⭐️⭐️⭐️
@@ -481,7 +541,26 @@
 	* RSpec for Rails-3+  [rspec-rails](https://github.com/rspec/rspec-rails) ⭐️⭐️⭐️
 	* 🔑 Community-driven Rails Security Checklist. Contribute and share your experience.  [rails-security-checklist](https://github.com/eliotsykes/rails-security-checklist) ⭐️⭐️⭐️
 * <a name="server-go"></a>**Go**
-	* GO Simple Tunnel - a simple tunnel written in golang.[gost](https://github.com/ginuerzh/gost) ⭐️⭐️⭐️
+    * 《The Way to Go》中文译本，中文正式名《Go入门指南》[the-way-to-go_ZH_CN](https://github.com/Unknwon/the-way-to-go_ZH_CN) ⭐️⭐️⭐️⭐️
+    * The Go programming language. [golang/go](https://github.com/golang/go) ⭐️⭐️⭐️⭐️⭐️
+    * A curated list of awesome Go frameworks, libraries and software. [awesome-go](https://github.com/avelino/awesome-go) ⭐️⭐️⭐️⭐️⭐️
+    * A golang ebook intro how to build a web with golang. [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang) ⭐️⭐️⭐️⭐️⭐️
+    * GO Simple Tunnel - a simple tunnel written in golang.[gost](https://github.com/ginuerzh/gost) ⭐️⭐️⭐️
+    * MEOW是[COW](https://github.com/cyfdecyf/cow)的一个派生版本,MEOW与COW最大的不同之处在于，COW采用黑名单模式，而MEOW采用白名单模式,国内网站直接连接，其他的网站使用代理连接 [renzhn/MEOW](https://github.com/renzhn/MEOW) ⭐️
+    * 🔴蓝灯最新版本下载   [getlantern/lantern](https://github.com/getlantern/lantern) ⭐️⭐️⭐️
+    * High-Performance MQTT Server and Client Libraries   [influxdata/surgemq](https://github.com/influxdata/surgemq) ⭐️⭐️
+    * It's like curl -v, with colours.  [davecheney/httpstat](https://github.com/davecheney/httpstat) ⭐️⭐️⭐️
+    * [Crawler for Golang] Pholcus is a distributed, high concurrency and powerful web crawler software. [henrylee2cn/pholcus](https://github.com/henrylee2cn/pholcus) ⭐️⭐️
+    * A code search tool similar to ack and the_silver_searcher(ag). It supports multi platforms and multi encodings.  [the_platinum_searcher](https://github.com/monochromegane/the_platinum_searcher) ⭐️⭐️
+    * IronFunctions - the serverless microservices platform.  [iron-io/functions](https://github.com/iron-io/functions) ⭐️
+    * HTTP proxy written in Go. COW can automatically identify blocked sites and use parent proxies to access.  [cyfdecyf/cow](https://github.com/cyfdecyf/cow) ⭐️⭐️⭐️
+    * A simple HTTP/2 server for development. [simplehttp2server](https://github.com/GoogleChrome/simplehttp2server) ⭐️
+    * Grumpy is a Python to Go source code transcompiler and runtime. [google/grumpy](https://github.com/google/grumpy) ⭐️⭐️⭐️⭐️⭐️
+    * 提供微信终端版本、微信命令行版本聊天功能、微信机器人. [liushuchun/wechatcmd](https://github.com/liushuchun/wechatcmd) ⭐️
+    * A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet. [fatedier/frp](https://github.com/fatedier/frp) ⭐️⭐️
+
+
+
 * <a name="server-redis"></a>**Redis**
     * Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, HyperLogLogs, Bitmaps.  [redis](https://github.com/antirez/redis) ⭐️⭐️⭐️⭐️⭐️
     * Medis is a beautiful, easy-to-use Mac database management application for Redis.[http://getmedis.com](http://getmedis.com).  [medis](https://github.com/luin/medis) ⭐️⭐️⭐️⭐️
@@ -489,11 +568,18 @@
     * Kue is a priority job queue backed by redis, built for node.js. [kue](https://github.com/Automattic/kue) ⭐️⭐️⭐️⭐️
     * memcached development tree. [memcached](https://github.com/memcached/memcached) ⭐️⭐️⭐️⭐️
     * A blazingly small and sane redis java client. [jedis](https://github.com/xetorthio/jedis) ⭐️⭐️⭐️⭐️
+
 * <a name="server-sql"></a>**DB**
 	* A simple business intelligence application. [bdash](https://github.com/bdash-app/bdash) ⭐️⭐️⭐️⭐️
 	* A pure node.js JavaScript Client implementing the MySql protocol. [mysql](https://github.com/mysqljs/mysql) ⭐️⭐️⭐️⭐️
     * MongoDB object modeling designed to work in an asynchronous environment. [mongoose](https://github.com/Automattic/mongoose) ⭐️⭐️⭐️⭐️⭐️
+    * Tile38 is a fast geospatial database, spatial index, and realtime geofence. It supports a variety of object types including lat/lon points, bounding boxes, XYZ tiles, Geohashes, and GeoJSON. 🌐 [tidwall/tile38](https://github.com/tidwall/tile38) ⭐️⭐️⭐️⭐️⭐️
     
+
+
+
+
+
 * <a name="server-java"></a>**Java**
 	* Most popular Mocking framework for unit tests written in Java. [mockito](https://github.com/mockito/mockito) ⭐️⭐️⭐️⭐️⭐️
     * MockServer enables easy mocking of any system you integrate with via HTTP or HTTPS with clients written in Java, JavaScript and Ruby. MockServer also includes a proxy that introspects all proxied traffic including encrypted SSL traffic and supports Port Forwarding, Web Proxying (i.e. HTTP proxy), HTTPS Tunneling Proxying (using HTTP CONNECT) and…. [mockserver](https://github.com/jamesdbloom/mockserver) ⭐️
@@ -504,11 +590,15 @@
     * ♨️ 为监控而生的数据库连接池！[alibaba/druid](https://github.com/alibaba/druid) ⭐️⭐️⭐️⭐️⭐️
     * Anthelion is a plugin for Apache Nutch to crawl semantic annotations within HTML pages  [yahoo/anthelion](https://github.com/yahoo/anthelion)    ⭐️⭐️⭐️
     * Enterprise Stream Process Engine. [alibaba/jstorm](https://github.com/alibaba/jstorm)  ⭐️⭐️⭐️
+    * The Eta Programming Language, a dialect of Haskell on the JVM. [typelead/eta](https://github.com/typelead/eta) ⭐️⭐️
+
 * <a name="server-python"></a>**Python**
 	* The Web framework for perfectionists with deadlines.  [django](https://github.com/django/django) ⭐️⭐️⭐️⭐️⭐️
 	* Certbot, previously the Let's Encrypt Client, is EFF's tool to obtain certs from Let's Encrypt, and (optionally) auto-enable HTTPS on your server. It can also act as a client for any other CA that uses the ACME protocol.  [certbot](https://github.com/certbot/certbot) ⭐️⭐️⭐️⭐️⭐️
 
-
+* <a name="server-bigdata"></a>**BigData**
+    * BigDL: Distributed Deep Learning Library for Apache Spark. [intel-analytics/BigDL](https://github.com/intel-analytics/BigDL) ⭐️⭐️
+    * Mirror of Apache Spark.  [apache/spark](https://github.com/apache/spark)⭐️⭐️⭐️⭐️
 
 
 ##<a name="android"></a>Android
@@ -554,7 +644,7 @@
 * Command-line program to download videos from YouTube.com and other video sites. 
 * Monospaced font family for user interface and coding environments.  [source-code-pro](https://github.com/adobe-fonts/source-code-pro) ⭐️⭐️⭐️
 * 批量压缩png和jpg图片python脚本.  [GGTinypng](https://github.com/ylovern/GGTinypng) ⭐️⭐️
-
+* Font files available from Google Fonts.  [google/fonts](https://github.com/google/fonts) ⭐️⭐️⭐️
 
 
 
@@ -562,9 +652,13 @@
 * The most awesome Powerline theme for ZSH around! [powerlevel9k](https://github.com/bhilburn/powerlevel9k) ⭐️⭐️
 * JSON output from a shell [jpmens/jo](https://github.com/jpmens/jo) ⭐️⭐️⭐️
 * Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。 [linux-command](https://github.com/jaywcjlove/linux-command) ⭐️⭐️⭐️⭐️⭐️
+* Happy Hacking Emacs & Spacemacs (Simplified Chinese) 用 21 天学习 Emacs 以及 Spacemacs 的使用.  [emacs-china/Spacemacs-rocks](https://github.com/emacs-china/Spacemacs-rocks) ⭐️
 * fugitive.vim: a Git wrapper so awesome, it should be illegal. [vim-fugitive](https://github.com/tpope/vim-fugitive) ⭐️⭐️⭐️⭐️⭐️  <sup>vim</sup>
 * use vim as IDE. [use_vim_as_ide](https://github.com/yangyangwithgnu/use_vim_as_ide) ⭐️⭐️⭐️⭐️⭐️ <sup>vim book</sup>
 * vim配置文件和插件. [ma6174/vim](https://github.com/ma6174/vim) ⭐️⭐️⭐️
+* spacevim ❄️ Like spacemacs, but 💕 vim [SpaceVim/SpaceVim](https://github.com/SpaceVim/SpaceVim)  ⭐️⭐️
+* ◈ Vim ide，教你安装配置自己的Vim。[jaywcjlove/vim-web](https://github.com/jaywcjlove/vim-web) ⭐️
+* fugitive.vim: a Git wrapper so awesome, it should be illegal. [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive) ⭐️⭐️⭐️
 * 一个前端开发工程师的的vim. [vim-web](https://github.com/jaywcjlove/vim-web) ⭐️  <sup>vim</sup>
 * A vimrc that Just Works™ for modern JavaScript development. [vimrc.js](https://github.com/zperrault/vimrc.js) ⭐️⭐️ <sup>vim</sup>
 * Vim configuration files for Elixir  [vim-elixir](https://github.com/elixir-lang/vim-elixir) ⭐️⭐️ <sup>vim</sup>
@@ -576,7 +670,9 @@
 ##<a name="python"></a>Python
 * A curated list of awesome Python frameworks, libraries, software and resources.  [awesome-python](https://github.com/vinta/awesome-python) ⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
 * My Python Examples. [Python](https://github.com/geekcomputers/Python) ⭐️⭐️⭐️⭐️⭐️
-
+* Python best practices guidebook, written for Humans. [kennethreitz/python-guide](https://github.com/kennethreitz/python-guide) ⭐️⭐️⭐️⭐️⭐️
+* Jupyter Notebooks for the Python Data Science Handbook [jakevdp/PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook) ⭐️⭐️⭐️⭐️⭐️
+* Vim-fork focused on extensibility and usability. [neovim/neovim](https://github.com/neovim/neovim) ⭐️⭐️⭐️⭐️⭐️
 * 基于 python3.4 和 django1.9 的 Blog 项目.  [django-blog-tutorial](https://github.com/zmrenwu/django-blog-tutorial) ⭐️⭐️⭐️
 * Project documentation with Markdown. [mkdocs](https://github.com/mkdocs/mkdocs) ⭐️⭐️⭐️⭐️
 * Apple 网络服务加速配置。（少数派、Appinn、Mac玩儿法 推荐） [AppleDNS](https://github.com/gongjianhui/AppleDNS) ⭐️⭐️⭐️
@@ -620,6 +716,9 @@
 * Searches through git repositories for high entropy strings, digging deep into commit history [truffleHog](https://github.com/dxa4481/truffleHog) ⭐️
 * A transparent bridge between Git and Dropbox - use a Dropbox (shared) folder as a Git remote! 🎁 [git-remote-dropbox](https://github.com/anishathalye/git-remote-dropbox) ⭐️⭐️⭐️
 * A Git platform powered by Scala with easy installation, high extensibility & github API compatibility. [gitbucket](https://github.com/gitbucket/gitbucket) ⭐️
+* A Git platform powered by Scala with easy installation, high extensibility & github API compatibility [gitbucket/gitbucket](https://github.com/gitbucket/gitbucket) ⭐️⭐️⭐️⭐️
+* Gogs 是一款极易搭建的自助 Git 服务。  [gogits/gogs](https://github.com/gogits/gogs) ⭐️⭐️⭐️⭐️
+* Gitea: Git with a cup of tea [go-gitea/gitea](https://github.com/go-gitea/gitea) ⭐️⭐️⭐️
 
 
 
@@ -668,11 +767,14 @@
 * Open Source Computer Vision Library. [opencv](https://github.com/opencv/opencv) ⭐️⭐️⭐️⭐️⭐️
 * A powerful and stable keyboard customizer for OS X. [Karabiner-Elements](https://github.com/tekezo/Karabiner-Elements) ⭐️⭐️⭐️⭐️
 * A minimal, Markdown based blogging system written in Python. [Letterpress](https://github.com/an0/Letterpress) ⭐️
-
+* 百度云分享爬虫项目. [callmelanmao/yunshare](https://github.com/callmelanmao/yunshare) ⭐️
 * The official source code repository for the calibre ebook manager [calibre](https://github.com/kovidgoyal/calibre) ⭐️⭐️⭐️
 
 * OBS - Free and open source software for live streaming and screen recording [obs-studio](https://github.com/jp9000/obs-studio) ⭐️⭐️⭐️⭐️⭐️
-
+* CodeHub is the best way to browse and maintain your GitHub repositories on any iOS device!   [thedillonb/CodeHub](https://github.com/thedillonb/CodeHub) ⭐️⭐️⭐️
+* 阿波罗11号制导计算机（AGC）中指令模块（Comanche055）和登月模块（Luminary099）原始代码。 [chrislgarry/Apollo-11](https://github.com/chrislgarry/Apollo-11/blob/master/README.zh_cn.md) ⭐️⭐️⭐️⭐️⭐️
+* Visual Studio Code. [Microsoft/vscode](https://github.com/Microsoft/vscode) ⭐️⭐️⭐️⭐️⭐️
+* OpenPower工作组收集汇总的医院开放数据. [open-power-workgroup/Hospital](https://github.com/open-power-workgroup/Hospital) ⭐️⭐️⭐️⭐️
 
 
 ##<a name="other"></a>Other
@@ -686,6 +788,7 @@
 	* A delightful community-driven (with 1,000+ contributors) framework for managing your zsh configuration. Includes 200+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, php, python, etc), over 140 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.[oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) ⭐️⭐️⭐️⭐️⭐️
 	* 🃏 A magical documentation site generator.[docsify](https://github.com/QingWei-Li/docsify) ⭐️⭐️⭐️⭐️
 	* 🚀 A fully extensible and open source launcher for hackers, creators and dabblers.[zazu](https://github.com/tinytacoteam/zazu) ⭐️⭐️⭐️
+    * Interactive cli tool for HTTP inspection.  [asciimoo/wuzz](https://github.com/asciimoo/wuzz) ⭐️⭐️⭐️⭐️⭐️
 	* stackoverflow from the terminal. [how2](https://github.com/santinic/how2) ⭐️⭐️⭐️
 	* DHT Spider + BitTorrent Client = P2P Spider. [p2pspider](https://github.com/dontcontactme/p2pspider) ⭐️⭐️⭐️
 	* 📷 git-based selfies for software developers. [lolcommits](https://github.com/mroth/lolcommits) ⭐️⭐️
@@ -697,6 +800,8 @@
     * 准确率99.9%的ip地址定位库，0.0x毫秒级查询，数据库文件大小只有1.5M，提供了java,php,c,python,nodejs,golang查询绑定和Binary,B树,内存三种查询算法，妈妈再也不用担心我的ip地址定位！ [ip2region](https://github.com/lionsoul2014/ip2region) ⭐️
     * 12306 图片验证码识别测试. [fuck12306](https://github.com/andelf/fuck12306) ⭐️⭐️⭐️
     * 📠 Convert various source codes into pdf file with custom features.  [code2pdf](https://github.com/tushar-rishav/code2pdf) ⭐️⭐️⭐️⭐️
+    * Manage and switch between multiple proxies quickly & easily. [FelisCatus/SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) ⭐️⭐️⭐️
+    * Shadowsocks GUI client. [shadowsocks/shadowsocks-gui](https://github.com/shadowsocks/shadowsocks-gui) ⭐️⭐️
 
 * <a name="other-useful"></a>**干货**
 	*  Swiss Army Knife for macOS. [m-cli](https://github.com/rgcr/m-cli) ⭐️⭐️⭐️⭐️⭐️
@@ -704,7 +809,7 @@
     * This is a collection of thoughts on securing a modern Apple Mac computer using macOS (formerly OS X) 10.12 "Sierra", as well as steps to improving online privacy. [macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide) [中文](https://github.com/xitu/macOS-Security-and-Privacy-Guide/blob/master/README-cn.md) ⭐️⭐️⭐️⭐️⭐️⭐️⭐️
 	* Shell scripts to build FFmpeg for iOS and tvOS. [FFmpeg-iOS-build-script](https://github.com/kewlbear/FFmpeg-iOS-build-script) ⭐️⭐️⭐️
 	* Based on a true story. [hacker-scripts](https://github.com/NARKOZ/hacker-scripts) ⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
-
+    * The really big list of really interesting open source projects in С, C++, Clojure, Common/Emacs Lisp, Elixir, Erlang, Golang, Haskell, JavaScript, Lua, OCaml, Python, R, Ruby, Rust, Scala and etc. [lk-geimfari/awesomo](https://github.com/lk-geimfari/awesomo) ⭐️⭐️⭐️⭐️
 
 
 * <a name="other-other"></a>**Other Framework & Engine**
@@ -729,7 +834,8 @@
     * freecodecamp 是一个自由的开源编程社区，它致力于抹平教育差距，让像你我一样的平凡人也能享受到花费巨资才可能享受到的优质教育。 [freecodecamp.cn](https://github.com/FreeCodeCampChina/freecodecamp.cn) ⭐️⭐️⭐️⭐️⭐️
     * 📕《Node.js 包教不包会》 by alsotang.  [node-lessons](https://github.com/alsotang/node-lessons) ⭐️⭐️⭐️⭐️
     * 从零开始的 JSON 库教程.  [json-tutorial](https://github.com/miloyip/json-tutorial) ⭐️⭐️⭐️⭐️⭐️
-
+    * Glance is a visual syntax for the programming language Haskell. The goal of this project is to increase programmer happiness and productivity by allowing programmers to create and understand programs in new and different ways. [rgleichman/glance](https://github.com/rgleichman/glance) ⭐️ <sup>haskell</sup>
+    * freecodecamp 是一个自由的开源编程社区，它致力于抹平教育差距. [FreeCodeCampChina/freecodecamp.cn](https://github.com/FreeCodeCampChina/freecodecamp.cn) ⭐️⭐️⭐️⭐️⭐️
 
 * <a name="other-arithmetic"></a>**算法/数据结构**
     * Computer Science Cheatsheets. [succinct-cybernetics](https://github.com/espadrine/succinct-cybernetics) ⭐️⭐️⭐️⭐️
