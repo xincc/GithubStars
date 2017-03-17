@@ -9,16 +9,61 @@
 	* [Tensorflow](#deep-learning-tensorflow)
 * [iOS](#ios)
 	* [Objective-C](#ios-objective-c)
-		* [ActionSheet](#ios-objective-c-action-sheet)
-		* [MVVM](#ios-objective-c-mvvm)
-		* [Menu](#ios-objective-c-menu)
-		* [CollectionView](#ios-objective-c-collectionview)
-		* [Model](#ios-objective-c-model)
-		* [Framework](#ios-objective-c-framework)
-		* [Encryption](#ios-objective-c-encryption)
-		* [Reverse](#ios-objective-c-reverse)
-		* [HotPtch](#ios-objective-c-hotpatch)
-		* [Media](#ios-objective-c-media)
+        * [ScrollView](#ios-objective-c-scrollview)
+        * [TableView](#ios-objective-c-tableview)
+        * [Collectionview](#ios-objective-c-collectionview)
+        * [Webview](#ios-objective-c-webview)
+        * [Label](#ios-objective-c-label)
+        * [Color&Theme](#ios-objective-c-color)
+        * [ActionSheet](#ios-objective-c-action-sheet)
+        * [Picker](#ios-objective-c-action-picker)
+        * [CheckBox](#ios-objective-c-checkbox)
+        * [Input](#ios-objective-c-input)
+        * [Toast](#ios-objective-c-toast)
+        * [LoadingHUD](#ios-objective-c-loading)
+        * [Segment](#ios-objective-c-segmented)
+        * [Welcome](#ios-objective-c-welcome)
+        * [Transition](#ios-objective-c-transition)
+        * [Navigation](#ios-objective-c-navigation)
+        * [Menu](#ios-objective-c-menu)
+        * [TabBar](#ios-objective-c-tabbar)
+        * [PhotoBroswer](#ios-objective-c-photo-broswer)
+        * [Image](#ios-objective-c-image)
+        * [PDF](#ios-objective-c-pdf)
+        * [Path](#ios-objective-c-path)
+        * [ScanCode](#ios-objective-c-code)
+        * [Chart&Graph](#ios-objective-c-chart)
+        * [Layout](#ios-objective-c-layout)
+        * [Animation](#ios-objective-c-animation)
+        * [Foundation](#ios-objective-c-foundation)
+        * [Swizze](#ios-objective-c-swizze)
+        * [MVVM/Functional](#ios-objective-c-mvvm)
+        * [FrameWork](#ios-objective-c-framework)
+        * [Router](#ios-objective-c-router)
+        * [Date](#ios-objective-c-date)
+        * [Calendar](#ios-objective-c-calendar)
+        * [Device](#ios-objective-c-device)
+        * [Network](#ios-objective-c-network)
+        * [Cache](#ios-objective-c-cache)
+        * [Model](#ios-objective-c-model)
+        * [Storage](#ios-objective-c-storage)
+        * [Encryption](#ios-objective-c-encryption)
+        * [KeyChain](#ios-objective-c-key-chain)
+        * [Reverse](#ios-objective-c-reverse)
+        * [HotPatch](#ios-objective-c-hotpatch)
+        * [Media](#ios-objective-c-media)
+        * [IM](#ios-objective-c-im)
+        * [Social](#ios-objective-c-social)
+        * [Live](#ios-objective-c-live)
+        * [LBS](#ios-objective-c-lbs)
+        * [AirPlay](#ios-objective-c-air-play)
+        * [Wallet](#ios-objective-c-wallet)
+        * [TouchID](#ios-objective-c-touchid)
+        * [TouchBar](#ios-objective-c-touch-bar)
+        * [ForceTouch](#ios-objective-c-force-touch)
+        * [Extension](#ios-objective-c-extension)
+        * [Test](#ios-objective-c-test)
+        * [OpenSource](#ios-objective-c-opensource)
 	* [Swift](#ios-swift)
 		* [Code Style](#ios-swift-code-style)
 		* [Transitions](#ios-swift-transition)
@@ -34,6 +79,7 @@
 		* [Files](#ios-swift-files)
 		* [Animation](#ios-swift-animation)
 		* [Media](#ios-swift-media)
+        * [Path](#ios-swift-path)
 	* [C++](#ios-c++)
 	* [Book](#ios-book)
 	* [Tools](#ios-tools)
@@ -137,43 +183,439 @@
 * Deep Learning library for Python. Convnets, recurrent neural networks, and more. Runs on Theano or TensorFlow. [keras](https://github.com/fchollet/keras) ⭐️⭐️⭐️⭐️⭐️
 * Deep Learning for Java, Scala & Clojure on Hadoop & Spark With GPUs - From Skymind. [deeplearning4j](https://github.com/deeplearning4j/deeplearning4j) ⭐️⭐️⭐️⭐️
 
-##<a name="ios"></a>iOS
+## <a name="ios"></a>iOS
 * <a name="ios-objective-c"></a>**Objective-C**
-	* <a name="ios-objective-c-mvvm"></a>**MVVM**
-		* (OC版)总结整理下一个快速开发框架，以更优雅的方式写代码，做一个代码艺术家。分离控制器中的代码，已加入cell自适应高度，自动缓存网络请求代码，降低代码耦合，提高开发效率。[MVVMFramework](https://github.com/lovemo/MVVMFramework) ⭐️⭐️⭐️
-	* <a name="ios-objective-c-menu"></a>**Menu**
-		* MLMOptionSelectView -PopMenu - 弹出-选择-展示框 [MLMOptionSelectView](https://github.com/MengLiMing/MLMOptionSelectView) ⭐️⭐️
-	* <a name="ios-objective-c-action-sheet"></a>**ActionSheet**
-		* Quickly reproduce the dropdown UIPickerView / ActionSheet functionality [ActionSheetPicker](https://github.com/skywinder/ActionSheetPicker-3.0) ⭐️⭐️⭐️
-	* <a name="ios-objective-c-collectionview"></a>**Collectionview**
-		* A UICollectionViewLayout subclass that adds custom transitions/animations to the UICollectionView without effecting your existing code.[AnimatedCollectionViewLayout](https://github.com/KelvinJin/ AnimatedCollectionViewLayout) ⭐️⭐️⭐️⭐️
-	* <a name="ios-objective-c-model"></a>**Model**
-		* Protocol Buffers - Google's data interchange format. [protobuf](https://github.com/google/protobuf) ⭐️⭐️⭐️⭐️⭐️
-		* Google Protocol Buffers for Objective-C. [protobuf-objc](https://github.com/alexeyxo/protobuf-objc) ⭐️⭐️⭐️⭐️⭐️
-		* A fast JSON parser/generator for C++ with both SAX/DOM style API.  [rapidjson](https://github.com/miloyip/rapidjson) ⭐️⭐️⭐️⭐️
-	* <a name="ios-objective-c-framework"></a>**FrameWork**
-		* Spotify’s component-driven UI framework for iOS. [HubFramework](https://github.com/spotify/HubFramework) ⭐️⭐️⭐️
+
+
+    * <a name="ios-objective-c-scrollview"></a>**ScrollView**
+        * UIScrollView infinite scroll category. [pronebird/UIScrollView-InfiniteScroll](https://github.com/pronebird/UIScrollView-InfiniteScroll) ⭐️
+        * A pull down to refresh control like the one in Apple's iOS6 Mail App.  [Sephiroth87/ODRefreshControl](https://github.com/Sephiroth87/ODRefreshControl) ⭐️⭐️⭐️
+        * HHHorizontalPagingView是一个实现上下滚动时菜单悬停在顶端，并且可以左右滑动切换的视图.  [Huanhoo/HHHorizontalPagingView](https://github.com/Huanhoo/HHHorizontalPagingView) ⭐️
+        * An easy way to use pull-to-refresh. [CoderMJLee/MJRefresh](https://github.com/CoderMJLee/MJRefresh) ⭐️⭐️⭐️⭐️⭐️
+
+
+    * <a name="ios-objective-c-tableview"></a>**TableView**
+        * An easy to use UITableViewCell subclass that allows to display swippable buttons with a variety of transitions. [MortimerGoro/MGSwipeTableCell](https://github.com/MortimerGoro/MGSwipeTableCell) ⭐️⭐️⭐️⭐️
+        * A subclass of UITableViewCell to present the parallax effect. [adad184/MMParallaxCell](https://github.com/adad184/MMParallaxCell) ⭐️
+        * A drop-in UITableView/UICollectionView superclass category for showing empty datasets whenever the view has no content to display.  [dzenbot/DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet) ⭐️⭐️⭐️⭐️⭐️⭐️
+        * Sample project demonstrating iOS 7 compatible auto sizing table view cells using Auto Layout.  [smileyborg/TableViewCellWithAutoLayout](https://github.com/smileyborg/TableViewCellWithAutoLayout) ⭐️⭐️
+        * A simple UITableViewCell subclass with a scrollable content view, exposing an accessory view when scrolled. Inspired by the iOS 7 mail app. Supports iOS 5+ [JonasGessner/JGScrollableTableViewCell](https://github.com/JonasGessner/JGScrollableTableViewCell) ⭐️
+        * Template auto layout cell for automatically UITableViewCell height calculating.  [forkingdog/UITableView-FDTemplateLayoutCell](https://github.com/forkingdog/UITableView-FDTemplateLayoutCell) ⭐️⭐️⭐️⭐️⭐️
+
+
+    * <a name="ios-objective-c-collectionview"></a>**Collectionview**
+        * A UICollectionViewLayout subclass that adds custom transitions/animations to the UICollectionView without effecting your existing code.[AnimatedCollectionViewLayout](https://github.com/KelvinJin/ AnimatedCollectionViewLayout) ⭐️⭐️⭐️⭐️
+        * A layout for UICollectionView that aligns the cells to the left. [mokagio/UICollectionViewLeftAlignedLayout](https://github.com/mokagio/UICollectionViewLeftAlignedLayout) ⭐️⭐️
+        * 长按拖拽排序. [HelloYeah/DraggingSort](https://github.com/HelloYeah/DraggingSort) ⭐️
+        * Swipe to "like" or "dislike" any view, just like Tinder.app. Build a flashcard app, a photo viewer, and more, in minutes, not hours! [modocache/MDCSwipeToChoose](https://github.com/modocache/MDCSwipeToChoose) ⭐️⭐️⭐️
+        * A simple, highly customisable, data-driven 3D carousel for iOS and Mac OS  [nicklockwood/iCarousel](https://github.com/nicklockwood/iCarousel) ⭐️⭐️⭐️⭐️⭐️
+        * the basics of a Tinder-like swipeable cards interface based off of [http://guti.in/articles/creating-tinder-like-animations/](http://guti.in/articles/creating-tinder-like-animations/) [cwRichardKim/TinderSimpleSwipeCards](https://github.com/cwRichardKim/TinderSimpleSwipeCards) ⭐️⭐️
+        * A flow layout for UICollectionView that implements swiping-to-select gestures. [SECollectionViewFlowLayout](https://github.com/CEWendel/SECollectionViewFlowLayout) ⭐️
+        * Aligns collection view cells to the center of the screen. [keighl/KTCenterFlowLayout](https://github.com/keighl/KTCenterFlowLayout) ⭐️
+        * UICollectionView replacement of UITableView. Do even more like Parallax Header, Sticky Section Header. Made for iOS 7. [CSStickyHeaderFlowLayout/CSStickyHeaderFlowLayout](https://github.com/CSStickyHeaderFlowLayout/CSStickyHeaderFlowLayout) ⭐️⭐️⭐️⭐️
+        * 标签流显示控件，同时支持文字或自定义View.  [zekunyan/TTGTagCollectionView](https://github.com/zekunyan/TTGTagCollectionView) ⭐️⭐️
+        * Full aspect ratio grid layout for iOS  [500px/greedo-layout-for-ios](https://github.com/500px/greedo-layout-for-ios) ⭐️⭐️
+        * Expand the current selected item. Focus the user's eyes. [DaidoujiChen/DaiExpandCollectionView](https://github.com/DaidoujiChen/DaiExpandCollectionView) ⭐️
+
+
 	* <a name="ios-objective-c-webview"></a>**Webview**
 		* A drop-in inline browser for your iOS app. [SVWebViewController](https://github.com/TransitApp/SVWebViewController) ⭐️⭐️⭐️
+        * iOS web browser with a focus on security and privacy. [jcs/endless](https://github.com/jcs/endless)  ⭐️⭐️
+        * Examples apps showing how to use OpenWebRTC.  [EricssonResearch/openwebrtc-examples](https://github.com/EricssonResearch/openwebrtc-examples) ⭐️⭐️
+        * A view controller class for iOS that allows users to view web pages directly within an app.   [TimOliver/TOWebViewController](https://github.com/TimOliver/TOWebViewController) ⭐️⭐️
+        * A simple web browser for iPhone & iPad with similar features than Safari's.  [dzenbot/DZNWebViewController](https://github.com/dzenbot/DZNWebViewController) ⭐️
+        * Simple offline caching for UIWebView and other NSURLConnection clients.  [rnapier/RNCachingURLProtocol](https://github.com/rnapier/RNCachingURLProtocol) ⭐️
+
+
+
+    * <a name="ios-objective-c-label"></a>**Label**
+        * Secret app like text animation.A UILabel subclass that lets you animate text similar to Secret app. [zipme/RQShineLabel](https://github.com/zipme/RQShineLabel) ⭐️⭐️
+        * An easy way to add a simple, shimmering effect to any view in an iOS app. [facebook/Shimmer](https://github.com/facebook/Shimmer) ⭐️⭐️⭐️⭐️⭐️
+        * A drop-in replacement for UILabel that supports attributes, data detectors, links, and more. [TTTAttributedLabel/TTTAttributedLabel](https://github.com/TTTAttributedLabel/TTTAttributedLabel) ⭐️⭐️⭐️⭐️⭐️
+        * TYAttributedLabel 简单，强大的属性文本控件(无需了解CoreText)，支持图文混排显示，支持添加链接，image和UIView控件，支持自定义排版显示.  [12207480/TYAttributedLabel](https://github.com/12207480/TYAttributedLabel) ⭐️⭐️⭐️
+
+
+
+    * <a name="ios-objective-c-color"></a>**Color&Theme**
+        * Flat Color Framework for iOS (Obj-C & Swift) [URL](https://github.com/ViccAlexander/Chameleon) ⭐️⭐️⭐️⭐️⭐️
+        * Manage Colors, Integrate Night/Multiple Themes. [Draveness/DKNightVersion](https://github.com/Draveness/DKNightVersion) ⭐️⭐️⭐️
+
+
+
+
+    * <a name="ios-objective-c-action-sheet"></a>**ActionSheet**
+        * Quickly reproduce the dropdown UIPickerView / ActionSheet functionality [ActionSheetPicker](https://github.com/skywinder/ActionSheetPicker-3.0) ⭐️⭐️⭐️
+        * A Custom Action Sheet. [yulingtianxia/TBActionSheet](https://github.com/yulingtianxia/TBActionSheet) ⭐️
+
+
+    * <a name="ios-objective-c-action-picker"></a>**Picker**
+        * A simple and efficient seat control, it can display a variety of seating styles, and supports custom stretching ratio, seat information transmission, and so on, I hope it is you want. [Upliver/FVSeatsPicker](https://github.com/Upliver/FVSeatsPicker) ⭐️
+        * This is an iOS control for selecting a date using UIDatePicker in an UIAlertController like manner. [CooperRS/RMDateSelectionViewController](https://github.com/CooperRS/RMDateSelectionViewController) ⭐️
+
+
+    * <a name="ios-objective-c-checkbox"></a>**CheckBox**
+        * Tasteful Checkbox for iOS. (Check box) [Boris-Em/BEMCheckBox](https://github.com/Boris-Em/BEMCheckBox) ⭐️⭐️⭐️
+
+
+    * <a name="ios-objective-c-input"></a>**Input**
+        * A beautiful rich text WYSIWYG editor for iOS with a syntax highlighted source view  [nnhubbard/ZSSRichTextEditor](https://github.com/nnhubbard/ZSSRichTextEditor) ⭐️⭐️⭐️
+        * A missing placeholder for UITextView.  [devxoul/UITextView-Placeholder](https://github.com/devxoul/UITextView-Placeholder) ⭐️
+        * Animated UITextField and UITextView replacement for iOS.  [jobandtalent/AnimatedTextInput](https://github.com/jobandtalent/AnimatedTextInput) ⭐️
+        * The most flexible and powerful way to build a form on iOS. [hyperoslo/Form](https://github.com/hyperoslo/Form) ⭐️⭐️⭐️⭐️⭐️
+        * A drop-in UIViewController subclass with a growing text input view and other useful messaging features.  [slackhq/SlackTextViewController](https://github.com/slackhq/SlackTextViewController) ⭐️⭐️⭐️⭐️⭐️
+        * A drop-in universal solution for moving text fields out of the way of the keyboard in iOS.  [michaeltyson/TPKeyboardAvoiding](https://github.com/michaeltyson/TPKeyboardAvoiding) ⭐️⭐️⭐️⭐️⭐️
+        * Powerful text framework for iOS to display and edit rich text. [ibireme/YYText](https://github.com/ibireme/YYText) ⭐️⭐️⭐️⭐️⭐️
+
+
+    * <a name="ios-objective-c-toast"></a>**Toast**
+        * Custom UIView for iOS that pops up an animated "bubble" pointing at a button or other view. Useful for popup tips.  [chrismiles/CMPopTipView](https://github.com/chrismiles/CMPopTipView) ⭐️⭐️⭐️
+        * A library that allows you to easily create text-based notifications that appear on the status bar.  [cezarywojcik/CWStatusBarNotification](https://github.com/cezarywojcik/CWStatusBarNotification) ⭐️⭐️⭐️
+        * 💌 Easy to use and customizable messages/notifications for iOS à la Tweetbot  [KrauseFx/TSMessages](https://github.com/KrauseFx/TSMessages) ⭐️⭐️⭐️⭐️⭐️ ![logo](https://camo.githubusercontent.com/37b2b2cd6f706493dc42dcf06c60bf098fb61f64/687474703a2f2f7777772e746f7572737072756e672e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031332f30392f6572726f725f696f73372e706e67)
+        
+
+    * <a name="ios-objective-c-loading"></a>**LoadingHUD**
+        * A full screen of the HUD when loading the data (Objective-C). [Jinxiansen/JHUD](https://github.com/Jinxiansen/JHUD) ⭐️
+        * This is a beauful hud view for iPhone & iPad. [devSC/WSProgressHUD](https://github.com/devSC/WSProgressHUD) ⭐️
+
+
+    * <a name="ios-objective-c-segmented"></a>**Segment**
+        * Segmented pager view with Parallax header [maxep/MXSegmentedPager](https://github.com/maxep/MXSegmentedPager) ⭐️
+
+
+    * <a name="ios-objective-c-welcome"></a>**Welcome**
+        * 模仿Uber视频欢迎界面.  [chinsyo/CHXWelcomeViewController](https://github.com/chinsyo/CHXWelcomeViewController) ⭐️
+        * A simple keyframe-based animation framework for UIKit. Perfect for scrolling app intros. [IFTTT/JazzHands](https://github.com/IFTTT/JazzHands) ⭐️⭐️⭐️⭐️⭐️
+
+
+    * <a name="ios-objective-c-transition"></a>**Transition**
+        * 模仿Airbnb首页过渡动画. [Chris-Pan/JPAnimation](https://github.com/Chris-Pan/JPAnimation) ⭐️
+        * 实现圆圈放大放小的转场动画.  [KittenYang/KYPingTransition](https://github.com/KittenYang/KYPingTransition) ⭐️
+        * Unified, easy API for custom iOS view controller transitioning.  [stepanhruda/STPTransitions](https://github.com/stepanhruda/STPTransitions) ⭐️⭐️
+        * 简书、淘宝弹出效果动画demo.  [linsyorozuya/JianShuPopViewDemo](https://github.com/linsyorozuya/JianShuPopViewDemo) ⭐️
+        * A library of custom iOS View Controller Animations and Interactions. [Raizlabs/RZTransitions](https://github.com/Raizlabs/RZTransitions) ⭐️⭐️
+        * A gallery app of custom animated transitions for iOS. [shu223/AnimatedTransitionGallery](https://github.com/shu223/AnimatedTransitionGallery) ⭐️⭐️⭐️
+
+
+    * <a name="ios-objective-c-navigation"></a>**Navigation**
+        * A UINavigationController's category to enable fullscreen pop gesture with iOS7+ system style. [forkingdog/FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture) ⭐️⭐️⭐️
+        * This library provides an fullScreen pop and push gesture for UINavigationController with customize UINavigationBar for each single support. [Chris-Pan/JPNavigationController](https://github.com/Chris-Pan/JPNavigationController) ⭐️
+        * Create condensing header bars like those seen in the Facebook, Square Cash, and Safari iOS apps. [bryankeller/BLKFlexibleHeightBar](https://github.com/bryankeller/BLKFlexibleHeightBar) ⭐️⭐️⭐️⭐️
+        * UINavigationBar Category which allows you to change its appearance dynamically.  [ltebean/LTNavigationBar](https://github.com/ltebean/LTNavigationBar) ⭐️⭐️⭐️⭐️
+        * A lightweight, easy to use, Side Drawer Navigation Controller.  [mutualmobile/MMDrawerController](https://github.com/mutualmobile/MMDrawerController) ⭐️⭐️⭐️⭐️⭐️
+        * iOS 7/8 style side menu with parallax effect. [romaonthego/RESideMenu](https://github.com/romaonthego/RESideMenu) ⭐️⭐️⭐️⭐️⭐️
+
+
+    * <a name="ios-objective-c-menu"></a>**Menu**
+        * MLMOptionSelectView -PopMenu - 弹出-选择-展示框 [MLMOptionSelectView](https://github.com/MengLiMing/MLMOptionSelectView) ⭐️⭐️
+        * You can easily add awesome animated context menu to your app.  [Yalantis/Context-Menu.iOS](https://github.com/Yalantis/Context-Menu.iOS) ⭐️⭐️⭐️   
+        * CCMenu is a Mac application to monitor continuous integration servers. [erikdoe/ccmenu](https://github.com/erikdoe/ccmenu) ⭐️
+        * An implementation of the sliding menu found in various iOS apps. [ViewDeck/ViewDeck](https://github.com/ViewDeck/ViewDeck) ⭐️⭐️⭐️⭐️⭐️
+        * A not bad gooey effects menu. [KittenYang/KYGooeyMenu](https://github.com/KittenYang/KYGooeyMenu) ⭐️⭐️⭐️
+
+
+    * <a name="ios-objective-c-tabbar"></a>**TabBar**
+        * Highly customizable tabBar and tabBarController for iOS.  [robbdimitrov/RDVTabBarController](https://github.com/robbdimitrov/RDVTabBarController) ⭐️⭐️⭐️
+        * Folding Tab Bar and Tab Bar Controller. [Yalantis/FoldingTabBar.iOS](https://github.com/Yalantis/FoldingTabBar.iOS) ⭐️⭐️⭐️
+
+
+
+    * <a name="ios-objective-c-photo-broswer"></a>**PhotoBroswer**
+        * 快速集成高性能照片浏览器，支持本地及网络相册. [CharlinFeng/CorePhotoBroswerVC](https://github.com/CharlinFeng/CorePhotoBroswerVC) ⭐️⭐️
+        * Photo Browser / Viewer inspired by Facebook's and Tweetbot's with ARC support, swipe-to-dismiss, image progress and more. [thiagoperes/IDMPhotoBrowser](https://github.com/thiagoperes/IDMPhotoBrowser) ⭐️⭐️
+        * A clone of UIImagePickerController with multiple selection support. [questbeat/QBImagePicker](https://github.com/questbeat/QBImagePicker) ⭐️⭐️
+        * Image cropper like the one in WeChat. [windshg/VPImageCropper](https://github.com/windshg/VPImageCropper) ⭐️
+        * A photo gallery for iOS with a modern feature set. Similar features as the Facebook photo browser. [EddyBorja/EBPhotoPages](https://github.com/EddyBorja/EBPhotoPages) ⭐️⭐️⭐️
+        * A simple iOS photo and video browser with grid view, captions and selections. [mwaterfall/MWPhotoBrowser](https://github.com/mwaterfall/MWPhotoBrowser) ⭐️⭐️⭐️⭐️⭐️
+
+
+
+    * <a name="ios-objective-c-image"></a>**Image**
+        * Performant animated GIF engine for iOS.  [Flipboard/FLAnimatedImage](https://github.com/Flipboard/FLAnimatedImage) ⭐️⭐️⭐️⭐️⭐️
+        * a UIImageView category to let the picture-cutting with faces showing better. [croath/UIImageView-BetterFace](https://github.com/croath/UIImageView-BetterFace) ⭐️⭐️
+        * Resizing UIImage on iOS. ImageMagick-style. [mustangostang/UIImage-ResizeMagick](https://github.com/mustangostang/UIImage-ResizeMagick) ⭐️
+        * A view controller that allows users to crop UIImage objects.TOCropViewController is an open-source UIViewController subclass built to allow users to perform basic manipulation on UIImage objects; specifically cropping and some basic rotations. It has been designed with the iOS 8 Photos app in mind, and as such, behaves in an already familiar way. [TimOliver/TOCropViewController](https://github.com/TimOliver/TOCropViewController) ⭐️⭐️
+        * Google's WebP image format decoder and encoder for iOS.  [seanooi/iOS-WebP](https://github.com/seanooi/iOS-WebP) ⭐️
+        * An iOS framework for easily adding drawings and text to images.  [IFTTT/jot](https://github.com/IFTTT/jot) ⭐️⭐️⭐️⭐️
+        * A simple demo of realtime face beautification based on GPUImage.  [Guikunzhi/BeautifyFaceDemo](https://github.com/Guikunzhi/BeautifyFaceDemo) ⭐️⭐️
+        * Fasttt and easy camera framework for iOS with customizable filters.  [IFTTT/FastttCamera](https://github.com/IFTTT/FastttCamera) ⭐️⭐️⭐️
+
+
+    * <a name="ios-objective-c-pdf"></a>**PDF**
+        * PDF Reader Core for iOS.  [vfr/Reader](https://github.com/vfr/Reader) ⭐️⭐️⭐️⭐️
+
+
+    * <a name="ios-objective-c-path"></a>**Path**
+        * Easily convert your SVG files into CGPaths, CAShapeLayers, and UIBezierPaths. [pocketsvg/PocketSVG](https://github.com/pocketsvg/PocketSVG) ⭐️⭐️
+        * Display and interact with SVG Images on iOS / OS X, using native rendering (CoreAnimation) (currently only supported for iOS - O…  [SVGKit/SVGKit](https://github.com/SVGKit/SVGKit) ⭐️⭐️⭐️
+
+
+    * <a name="ios-objective-c-code"></a>**ScanCode**
+        * An Objective-C Port of ZXing.  [TheLevelUp/ZXingObjC](https://github.com/TheLevelUp/ZXingObjC) ⭐️⭐️⭐️
+        * A lightweight, easy-to-use barcode scanning library for iOS 8+. [mikebuss/MTBBarcodeScanner](https://github.com/mikebuss/MTBBarcodeScanner) ⭐️
+
+
+
+    * <a name="ios-objective-c-chart"></a>**Chart&Graph**
+        * A Fast, Open Source JavaScript, Canvas & Audio Implementation for iOS.  [phoboslab/Ejecta](https://github.com/phoboslab/Ejecta) ⭐️⭐️⭐️
+        * A line chart library for iOS.  [ArthurGuibert/FSLineChart](https://github.com/ArthurGuibert/FSLineChart) ⭐️
+        * 本项目是将百度的ECharts(echarts2)工具封装成对应的iOS和Mac的控件.  [Pluto-Y/iOS-Echarts](https://github.com/Pluto-Y/iOS-Echarts/tree/master/Doc) ⭐️
+        * Elegant Line Graphs for iOS. (Charting library).  [Boris-Em/BEMSimpleLineGraph](https://github.com/Boris-Em/BEMSimpleLineGraph) ⭐️⭐️⭐️
+        * iOS 股票的K线图 分时图 Kline。 [chenyk0317/YKLineChartView](https://github.com/chenyk0317/YKLineChartView) ⭐️⭐️
+        * A lightweight library of animated graphs for iOS.  [michalkonturek/GraphKit](https://github.com/michalkonturek/GraphKit) ⭐️⭐️
+        * A simple and beautiful chart lib used in Piner and CoinsMan for iOS.  [kevinzhow/PNChart](https://github.com/kevinzhow/PNChart) ⭐️⭐️⭐️⭐️⭐️
+        * A CocoaPod that simplifies creation of the particle effects.  [Cleveroad/CRParticleEffect](https://github.com/Cleveroad/CRParticleEffect) ⭐️
+
+
+
+    * <a name="ios-objective-c-layout"></a>**Layout**
+        * Smooth asynchronous user interfaces for iOS apps. [facebook/AsyncDisplayKit](https://github.com/facebook/AsyncDisplayKit) ⭐️⭐️⭐️⭐️⭐️
+        * Porting UIStackView to iOS 7+  [oarrabi/OAStackView](https://github.com/oarrabi/OAStackView) ⭐️⭐️⭐️
+        * Use UIStackView directly in iOS6+ [forkingdog/FDStackView](https://github.com/forkingdog/FDStackView) ⭐️⭐️⭐️
+        * A drop in solution to show UIView's size. Only one line code to use it. [adad184/MMPlaceHolder](https://github.com/adad184/MMPlaceHolder) ⭐️⭐️
+        * An easy way to create and update AutoLayout Constraints (Mainly to update Width and Height of UIView).  [damienromito/UIView-UpdateAutoLayoutConstraints](https://github.com/damienromito/UIView-UpdateAutoLayoutConstraints) ⭐️
+
+
+    * <a name="ios-objective-c-animation"></a>**Animation**
+        * An extensible iOS and OS X animation library, useful for physics-based interactions. [facebook/pop](https://github.com/facebook/pop) ⭐️⭐️⭐️⭐️⭐️
+        * An iOS library to natively render After Effects vector animations.  [airbnb/lottie-ios](https://github.com/airbnb/lottie-ios) ⭐️⭐️⭐️⭐️⭐️
+        * IOS动画总结. [yixiangboy/IOSAnimationDemo](https://github.com/yixiangboy/IOSAnimationDemo) ⭐️⭐️
+        * This demo mimics the effect of the drop of water, in Objective-c. [PandaraWen/WaterDropViewDemo](https://github.com/PandaraWen/WaterDropViewDemo) ⭐️
+        * Drop-in button control with with particle effects similar to the Like button in Facebook Paper. [matthewcheok/MCFireworksButton](https://github.com/matthewcheok/MCFireworksButton) ⭐️
+        * Simply Implement Zee Young's animation.   [MartinRGB/Replace-iOS](https://github.com/MartinRGB/Replace-iOS) ⭐️⭐️
+        * Siri like waver.  [kevinzhow/Waver](https://github.com/kevinzhow/Waver) ⭐️
+        * UIView subclass that reproduces the waveform effect seen in Siri on iOS 7. [stefanceriu/SCSiriWaveformView](https://github.com/stefanceriu/SCSiriWaveformView) ⭐️
+        * Achieve beautiful wavewater animate. [dsxNiubility/SXWaveAnimate](https://github.com/dsxNiubility/SXWaveAnimate) ⭐️⭐️
+        * ARAnimation is an Core Animation library to make you animations easily.  [AugustRush/ARAnimation](https://github.com/AugustRush/ARAnimation) ⭐️⭐️
+        * A UI framework for Mac based on Core Animation [twitter/twui](https://github.com/twitter/twui) ⭐️⭐️⭐️
+
+
+
+    * <a name="ios-objective-c-foundation"></a>**Foundation**
+        * iOS Objective-C headers as derived from runtime introspection.  [nst/iOS-Runtime-Headers](https://github.com/nst/iOS-Runtime-Headers) ⭐️⭐️⭐️⭐️⭐️
+        * iOS Runtime Headers.  [aviSoto/iOS10-Runtime-Headers](https://github.com/JaviSoto/iOS10-Runtime-Headers) ⭐️⭐️
+        * Objective-C Runtime Browser, for Mac OS X and iOS   [nst/RuntimeBrowser](https://github.com/nst/RuntimeBrowser) ⭐️⭐️⭐️
+        * Class that prevents iOS devices from deep sleeping.  [mplusp/MMPDeepSleepPreventer](https://github.com/mplusp/MMPDeepSleepPreventer) ⭐️
+        * Compatibility stubs to enable use of weak references with ARC on older OSes.  [plausiblelabs/PLWeakCompatibility](https://github.com/plausiblelabs/PLWeakCompatibility) ⭐️
+        * iOS9适配系列教程（iOS9开发学习交流群：515295083） [ChenYilong/iOS9AdaptationTips](https://github.com/ChenYilong/iOS9AdaptationTips) ⭐️⭐️⭐️⭐️
+        * Provides a cancel mechanism for delayed block dispatch.  [Spaceman-Labs/Dispatch-Cancel](https://github.com/Spaceman-Labs/Dispatch-Cancel) ⭐️
+
+
+    * <a name="ios-objective-c-swizze"></a>**Swizze**
+        * Used to print the structure of your application as you use it.  [RuiAAPeres/UIViewController-Swizzled](https://github.com/RuiAAPeres/UIViewController-Swizzled) ⭐️⭐️
+        * ObjC wrapper for ObjC runtime API.  [mikeash/MAObjCRuntime](https://github.com/mikeash/MAObjCRuntime) ⭐️⭐️
+        * Objc runtime additions. [ebf/CTObjectiveCRuntimeAdditions](https://github.com/ebf/CTObjectiveCRuntimeAdditions) ⭐️
+        * Delightful, simple library for aspect oriented programming. [steipete/Aspects](https://github.com/steipete/Aspects) ⭐️⭐️⭐️⭐️⭐️
+
+
+
+    * <a name="ios-objective-c-mvvm"></a>**MVVM/Functional**
+        * (OC版)总结整理下一个快速开发框架，以更优雅的方式写代码，做一个代码艺术家。分离控制器中的代码，已加入cell自适应高度，自动缓存网络请求代码，降低代码耦合，提高开发效率。[MVVMFramework](https://github.com/lovemo/MVVMFramework) ⭐️⭐️⭐️
+        * Bolts is a collection of low-level libraries designed to make developing mobile apps easier. [BoltsFramework/Bolts-ObjC](https://github.com/BoltsFramework/Bolts-ObjC) ⭐️⭐️⭐️⭐️⭐️
+        * A Cocoa library to extend the Objective-C programming language.  [jspahrsummers/libextobjc](https://github.com/jspahrsummers/libextobjc) ⭐️⭐️⭐️⭐️
+        * Simple, modern, thread-safe key-value observing for iOS and OS X. [facebook/KVOController](https://github.com/facebook/KVOController) ⭐️⭐️⭐️⭐️⭐️
+        * GitHub API client for Objective-C.  [octokit/octokit.objc](https://github.com/octokit/octokit.objc) ⭐️⭐️⭐️⭐️⭐️
+
+
+    * <a name="ios-objective-c-framework"></a>**FrameWork**
+        * Spotify’s component-driven UI framework for iOS. [HubFramework](https://github.com/spotify/HubFramework) ⭐️⭐️⭐️
+        * QMUI iOS——致力于提高项目 UI 开发效率的解决方案. [QMUI/QMUI_iOS](https://github.com/QMUI/QMUI_iOS) ⭐️⭐️
+        * iOS UI bindings for Firebase.  [firebase/FirebaseUI-iOS](https://github.com/firebase/FirebaseUI-iOS) ⭐️
+        * Three20 is an Objective-C library for iPhone developers.   [facebookarchive/three20](https://github.com/facebookarchive/three20) ⭐️⭐️⭐️
+        * The iOS framework that grows only as fast as its documentation.  [jverkoey/nimbus](https://github.com/jverkoey/nimbus) ⭐️⭐️⭐️⭐️
+        * 🐝 BeeHive is a solution for iOS Application module programs, it absorbed the Spring Framework API service concept to avoid to coupling between modules.  [alibaba/BeeHive](https://github.com/alibaba/BeeHive/blob/master/README-CN.md) ⭐️⭐️
+        * A handy class that prompts users of your iPhone or Mac App Store app to rate your application after using it for a while. Similar to Appirater, but with a simpler, cleaner interface and automatic support for iOS fast application switching. [nicklockwood/iRate](https://github.com/nicklockwood/iRate) ⭐️⭐️⭐️⭐️⭐️
+        * A collection of iOS components. [ibireme/YYKit](https://github.com/ibireme/YYKit) ⭐️⭐️⭐️⭐️
+
+
+    * <a name="ios-objective-c-router"></a>**Router**
+        * 通过自定义URL实现控制器之间的跳转.  [DarielChen/DCURLRouter](https://github.com/DarielChen/DCURLRouter) ⭐️
+        * Yet another URL Router for iOS. [lightory/HHRouter](https://github.com/lightory/HHRouter) ⭐️⭐️⭐️
+
+
+
+    * <a name="ios-objective-c-date"></a>**Date**
+        * Dates and times made easy in iOS  [MatthewYork/DateTools](https://github.com/MatthewYork/DateTools) ⭐️⭐️⭐️⭐️⭐️
+        * A "time ago", "time since", "relative date", or "fuzzy date" category for NSDate and iOS, Objective-C, Cocoa Touch, iPhone, iPad.  [kevinlawler/NSDate-TimeAgo](https://github.com/kevinlawler/NSDate-TimeAgo) ⭐️⭐️⭐️
+
+
+    * <a name="ios-objective-c-calendar"></a>**Calendar**
+        * A fully customizable calendar view acting as a date range picker.  [Glow-Inc/GLCalendarView](https://github.com/Glow-Inc/GLCalendarView) ⭐️⭐️
+
+    * <a name="ios-objective-c-device"></a>**Device**
+        * Add functionality to UIDevice to distinguish between platforms like iPod touch 1G and 2G and iPhone.  [erica/uidevice-extension](https://github.com/erica/uidevice-extension) ⭐️⭐️⭐️
+        * iOS System Services is a class to gather all available information about a device. [Shmoopi/iOS-System-Services](https://github.com/Shmoopi/iOS-System-Services) ⭐️⭐️⭐️
+
+
+    * <a name="ios-objective-c-network"></a>**Network**
+        * Obj-C / Cocoa HTTP requests for humans. [nst/STHTTPRequest](https://github.com/nst/STHTTPRequest) ⭐️
+        * RestKit is a framework for consuming and modeling RESTful web resources on iOS and OS X.  [RestKit/RestKit](https://github.com/RestKit/RestKit) ⭐️⭐️⭐️⭐️
+        * A small, lightweight, embeddable HTTP server for Mac OS X or iOS applications.  [robbiehanson/CocoaHTTPServer](https://github.com/robbiehanson/CocoaHTTPServer) ⭐️⭐️⭐️⭐️
+        * We need to observe the REAL reachability of network. That's what RealReachability do. [dustturtle/RealReachability](https://github.com/dustturtle/RealReachability) ⭐️⭐️⭐️
+        * iOS完美的网络状态判断工具.  [iOSSinger/SGNetObserver](https://github.com/iOSSinger/SGNetObserver) ⭐️
+        * 一行代码搞定网络状态监测,并跳转到设置相应网络的页面. [qingyunhe/HQYReachability](https://github.com/qingyunhe/HQYReachability) ⭐️
+        * WHCNetWorkKit 是http网络请求开源库(支持GET/POST 文件上传 后台文件下载 UIButton UIImageView 控件设置网络图片 网络数据工具json/xml 转模型类对象 网络状态监听).  [netyouli/WHCNetWorkKit](https://github.com/netyouli/WHCNetWorkKit) ⭐️
+        * Stub your network requests easily! Test your apps with fake network data and custom response time, response code and headers! [AliSoftware/OHHTTPStubs](https://github.com/AliSoftware/OHHTTPStubs)  ⭐️⭐️⭐️
+        * Nice category that adds the ability to set the retry interval, retry count and progressive.  [kubatruhlar/AFNetworking-RetryPolicy](https://github.com/kubatruhlar/AFNetworking-RetryPolicy) ⭐️
+        * A thread safe, performant, feature rich image fetcher. [pinterest/PINRemoteImage](https://github.com/pinterest/PINRemoteImage) ⭐️⭐️⭐️
+        * Testing HTTP requests has never been easier. Nocilla: Stunning HTTP stubbing for iOS and Mac OS X. [luisobo/Nocilla](https://github.com/luisobo/Nocilla) ⭐️⭐️
+        * The HTTP library used by the Spotify iOS client.  [spotify/SPTDataLoader](https://github.com/spotify/SPTDataLoader) ⭐️
+        * Library for replacing part/all HTTP response based on Nocilla. [hypoyao/GYHttpMock](https://github.com/hypoyao/GYHttpMock) ⭐️⭐️⭐️
+        * Mock objects for Objective-C [erikdoe/ocmock](https://github.com/erikdoe/ocmock) ⭐️⭐️⭐️
+
+    * <a name="ios-objective-c-cache"></a>**Cache**
+        * High performance cache framework for iOS.  [ibireme/YYCache](https://github.com/ibireme/YYCache) ⭐️⭐️
+        * Everyone tries to implement a cache at some point in their iOS app’s lifecycle, and this is ours. [spotify/SPTPersistentCache](https://github.com/spotify/SPTPersistentCache) ⭐️⭐️
+
+    * <a name="ios-objective-c-model"></a>**Model**
+        * Model framework for Cocoa and Cocoa Touch.  [Mantle/Mantle](https://github.com/Mantle/Mantle)   ⭐️⭐️⭐️⭐️⭐️
+        * Protocol Buffers - Google's data interchange format. [protobuf](https://github.com/google/protobuf) ⭐️⭐️⭐️⭐️⭐️
+        * Google Protocol Buffers for Objective-C. [protobuf-objc](https://github.com/alexeyxo/protobuf-objc) ⭐️⭐️⭐️⭐️⭐️
+        * A fast JSON parser/generator for C++ with both SAX/DOM style API.  [rapidjson](https://github.com/miloyip/rapidjson) ⭐️⭐️⭐️⭐️
+        * An alternative to Core Data for people who like having direct SQL access. [marcoarment/FCModel    ](https://github.com/marcoarment/FCModel) ⭐️⭐️
+        * An XML/HTML parser for Objective-C, inspired by Hpricot.  [topfunky/hpple](https://github.com/topfunky/hpple) ⭐️⭐️⭐️
+        * A block-based API for NSValueTransformer, with a growing collection of useful examples. [mattt/TransformerKit](https://github.com/mattt/TransformerKit) ⭐️⭐️
+        * Validate JSON before it is mapped [reygonzales/RPJSONValidator](https://github.com/reygonzales/RPJSONValidator) ⭐️
+
+
+    * <a name="ios-objective-c-storage"></a>**Storage**
+        * 专业的数据库存储解决方案，线程安全，高性能模型对象存储Sqlite开源库，真正实现一行代码操作数据库，让数据库存储变得简单. [netyouli/WHC_ModelSqliteKit](https://github.com/netyouli/WHC_ModelSqliteKit) ⭐️
+        * A Cocoa / Objective-C wrapper around SQLite. [ccgus/fmdb](https://github.com/ccgus/fmdb) ⭐️⭐️⭐️⭐️⭐️
+        * YapDatabase is an extensible database for iOS & Mac. [yapstudios/YapDatabase](https://github.com/yapstudios/YapDatabase) ⭐️⭐️⭐️
+        * MySQL/MariaDB database management for macOS.  [sequelpro/sequelpro](https://github.com/sequelpro/sequelpro) ⭐️⭐️⭐️
+        * NSUserDefaults access via properties.  [gangverk/GVUserDefaults](https://github.com/gangverk/GVUserDefaults) ⭐️⭐️
+
+
+
 	* <a name="ios-objective-c-encryption"></a>**Encryption**
-		* A script for compiling OpenSSL for iOS Devices (iPhone, iPad, iPod Touch, AppleTV) . [OpenSSL-for-iPhone](https://github.com/x2on/OpenSSL-for-iPhone)
-	* <a name="ios-objective-c-reverse"></a>**Reverse**
+		* A script for compiling OpenSSL for iOS Devices (iPhone, iPad, iPod Touch, AppleTV) . [OpenSSL-for-iPhone](https://github.com/x2on/OpenSSL-for-iPhone) ⭐️⭐️⭐️
+        * Easy SSL pinning validation and reporting for iOS, macOS, tvOS and watchOS.  [datatheorem/TrustKit](https://github.com/datatheorem/TrustKit) ⭐️⭐️ 
+        * Client library for OAuth2 (currently built against draft 10 of the OAuth2 spec).  [nxtbgthng/OAuth2Client](https://github.com/nxtbgthng/OAuth2Client) ⭐️
+        * [OpenUDID IS NOW DEPRECATED] Open source initiative for a universal and persistent UDID solution for iOS.  [ylechelle/OpenUDID](https://github.com/ylechelle/OpenUDID) ⭐️⭐️⭐️
+        * Encrypt/Decrypt: AES. Hash: MD5, SHA(SHA1, SHA224, SHA256, SHA384, SHA512). Encode/Decode: Base64, Hex. [kelp404/CocoaSecurity](https://github.com/kelp404/CocoaSecurity) ⭐️⭐️
+    
+
+
+    * <a name="ios-objective-c-key-chain"></a>**KeyChain**
+        * Valet lets you securely store data in the iOS or OS X Keychain without knowing a thing about how the Keychain works. It’s easy. We promise. [square/Valet](https://github.com/square/Valet) ⭐️⭐️⭐️
+
+
+
+    * <a name="ios-objective-c-reverse"></a>**Reverse**
 		* iOS Reverse Engineering. [iOSRE](https://github.com/kpwn/iOSRE) ⭐️⭐️⭐️
 		* A reverse engineering tool to convert iOS app to dylib. [app2dylib](https://github.com/tobefuturer/app2dylib) ⭐️⭐️
+        * iOS冰与火之歌.  [zhengmin1989/iOS_ICE_AND_FIRE](https://github.com/zhengmin1989/iOS_ICE_AND_FIRE) ⭐️⭐️
+
+
+
+
 	* <a name="ios-objective-c-hotpatch"></a>**HotPatch**
 		* JSPatch Convertor is a tool that converts Objective-C code to JSPatch script automatically.  [JSPatchConvertor](https://github.com/bang590/JSPatchConvertor) ⭐️⭐️⭐️
         * xLua is a hot-fix solution plugin for Unity and C#, it supports android, ios, windows, osx, etc.  [xLua](https://github.com/Tencent/xLua) ⭐️⭐️
         * Dynamically load a lua script to change the behavior of your iOS application. [WaxPatch](https://github.com/mmin18/WaxPatch) ⭐️⭐️
-	* <a name="ios-objective-c-media"></a>**Media**
+        * Wax is a framework that lets you write native iPhone apps in Lua. [alibaba/wax](https://github.com/alibaba/wax) ⭐️⭐️
+        * Bridge between Lua and Objective-C which allows you to call a Objective-C method from a Lua script using NSInvocation. [torus/Lua-Objective-C-Bridge](https://github.com/torus/Lua-Objective-C-Bridge) ⭐️
+        * JSPatch bridge Objective-C and Javascript using the Objective-C runtime. You can call any Objective-C class and method in JavaScript by just including a small engine. JSPatch is generally used to hotfix iOS App. [bang590/JSPatch](https://github.com/bang590/JSPatch) ⭐️⭐️⭐️⭐️⭐️
 
-				
+
+	* <a name="ios-objective-c-media"></a>**Media**
+        * Record the iOS6/7/8/9/10 Device Screen on non-jailbroken iPhones. [xindawndev/RecordMyScreen-iOS10](https://github.com/xindawndev/RecordMyScreen-iOS10) ⭐️
+        * A Core Audio based streaming audio player for iOS and macOS.  [douban/DOUAudioStreamer](https://github.com/douban/DOUAudioStreamer) ⭐️⭐️⭐️
+        * An elegant and simple iOS music player. [Aufree/ESTMusicPlayer](https://github.com/Aufree/ESTMusicPlayer) ⭐️⭐️
+        * A video library like WeChat short video for iOS. [pepsikirk/PKShortVideo](https://github.com/pepsikirk/PKShortVideo) ⭐️
+        * iOS/OSX DSP for audio (with Novocaine).  [bartolsthoorn/NVDSP](https://github.com/bartolsthoorn/NVDSP) ⭐️
+        * Make your view controllers a custom backgroundvideo.  [StoneLeon/STLBGVideo](https://github.com/StoneLeon/STLBGVideo) ⭐️
+
+
+
+    * <a name="ios-objective-c-im"></a>**IM**
+        * ChatSecure is a free and open source encrypted chat client for iOS that supports OTR and OMEMO encryption over XMPP. [ChatSecure/ChatSecure-iOS](https://github.com/ChatSecure/ChatSecure-iOS) ⭐️⭐️⭐️
+        * This is a native iOS Messenger app, with audio/video calls and realtime chat conversations (full offline support). [URL](https://github.com/relatedcode/Messenger) ⭐️⭐️⭐️
+        * iOS and Mac Cocoa library for communicating over USB.  [rsms/peertalk](https://github.com/rsms/peertalk) ⭐️⭐️
+        * Chat and Messaging UI components for iOS, built to work with Layer.  [layerhq/Atlas-iOS](https://github.com/layerhq/Atlas-iOS)  ⭐️⭐️⭐️⭐️
+        * An elegant messages UI library for iOS.  [jessesquires/JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController) ⭐️⭐️⭐️⭐️⭐️
+
+
+    * <a name="ios-objective-c-social"></a>**Social**
+        * A stable, mature and comprehensive Objective-C library for Twitter REST API 1.1  [nst/STTwitter](https://github.com/nst/STTwitter) ⭐️⭐️
+        * ➕ Cordova plugin to login with Google Sign-In on iOS and Android.  [EddyVerbruggen/cordova-plugin-googleplus](https://github.com/EddyVerbruggen/cordova-plugin-googleplus) ⭐️
+        * 不用官方SDK，利用社交软件移动客户端(微信/QQ/微博/人人/支付宝)分享/登录/支付。[100apps/openshare](https://github.com/100apps/openshare) ⭐️⭐️⭐️
+        * 整合第三方 SDK 微信、微博、 QQ 等为统一的 Diplomat 接口。 [lingochamp/Diplomat](https://github.com/lingochamp/Diplomat) ⭐️⭐️
+        * Parse SDK for iOS/OS X/watchOS/tvOS.  [ParsePlatform/Parse-SDK-iOS-OSX](https://github.com/ParsePlatform/Parse-SDK-iOS-OSX) ⭐️⭐️⭐️
+
+    * <a name="ios-objective-c-live"></a>**Live**
+        * 直播技术的总结. [tiantianlan/LiveExplanation](https://github.com/tiantianlan/LiveExplanation) ⭐️
+        * 金山云直播SDK [ iOS推流+播放 ]融合版 支持美颜滤镜(Beauty Filter)、美声(Beauty Voice)、软硬编(Software/Hardware Encoder) 、网络自适应(Network Auto Adapt)、混音(Audio Mixer)、混响(Reverb)、画中画(PIP)  [ksvc/KSYLive_iOS](https://github.com/ksvc/KSYLive_iOS) ⭐️
+        * 网易的云直播的播放器，支持本地视频播放，流媒体播放（rtmp，hls等），低延迟，高可定制.  [xxycode/NELivePlayer](https://github.com/xxycode/NELivePlayer) ⭐️
+        * LaiFeng IOS Live Kit,H264 and AAC Hard coding，support GPUImage Beauty， rtmp transmission，weak network lost frame，Dynamic switching rate [LaiFengiOS/LFLiveKit](https://github.com/LaiFengiOS/LFLiveKit) ⭐️⭐️⭐️
+
+
+    * <a name="ios-objective-c-lbs"></a>**LBS**
+        * Estimote Indoor Location SDK allows real-time beacon-based mapping and indoor location.   [Estimote/iOS-Indoor-SDK](https://github.com/Estimote/iOS-Indoor-SDK) ⭐️⭐️
+        * Background Location Update Programming for iOS 7 and 8 over an extended period of time. Continue to get location on both foreground and background. [voyage11/Location](https://github.com/voyage11/Location) ⭐️⭐️
+        * Example App: How To Efficiently Display Large Amounts of Data on iOS Maps.  [thoughtbot/TBAnnotationClustering](https://github.com/thoughtbot/TBAnnotationClustering) ⭐️⭐️
+
+
+    * <a name="ios-objective-c-air-play"></a>**AirPlay**
+        * A framework for streaming audio between Apple devices using AirPlay.  [qasim/Airstream](https://github.com/qasim/Airstream) ⭐️⭐️
+
+    * <a name="ios-objective-c-wallet"></a>**Wallet**
+        * breadwallet - bitcoin wallet [voisine/breadwallet](https://github.com/voisine/breadwallet) ⭐️
+
+    * <a name="ios-objective-c-touchid"></a>**TouchID**
+        * TDTouchID是一个封装好的指纹验证库,可以用来做iOSAPP的登录/支付等验证。 [greezi/TDTouchID](https://github.com/greezi/TDTouchID) ⭐️
+
+    * <a name="ios-objective-c-touch-bar"></a>**TouchBar**
+        * Allows you to use your macOS Touch Bar from an iPad (through USB connection) or on-screen by pressing the Fn-key. [bikkelbroeders/TouchBarDemoApp](https://github.com/bikkelbroeders/TouchBarDemoApp) ⭐️⭐️
+
+    * <a name="ios-objective-c-force-touch"></a>**ForceTouch**
+        * iOS Force Touch gesture recognizer that will stream force updates to the delegate for the user's finger pressure changes. It gives you the capability to detect force touch and monitor pressure changes on views in order to adapt your ui for an added dimension of interaction.  [foggzilla/DFContinuousForceTouchGestureRecognizer](https://github.com/foggzilla/DFContinuousForceTouchGestureRecognizer) ⭐️
+
+
+    * <a name="ios-objective-c-extension"></a>**Extension**
+        * Simple app to monitor your GitHub Contributions Graph in Today Extension and Apple Watch.  [JustinFincher/GitHubContributionsiOS](https://github.com/JustinFincher/GitHubContributionsiOS) ⭐️
+
+
+    * <a name="ios-objective-c-test"></a>**Test**
+        * Simple BDD for iOS.  [kiwi-bdd/Kiwi](https://github.com/kiwi-bdd/Kiwi) ⭐️⭐️⭐️⭐️
+        * Bluepill is a reliable iOS testing tool that runs UI tests using multiple simulators on a single machine.  [linkedin/bluepill](https://github.com/linkedin/bluepill) ⭐️⭐️⭐️
+        * 🍵 iOS UI Automation Test Framework.  [google/EarlGrey](https://github.com/google/EarlGrey) ⭐️⭐️⭐️⭐️
+        * Next generation debugging framework for iOS. [Legoless/Alpha](https://github.com/Legoless/Alpha) ⭐️⭐️
+        * Snapshot view unit tests for iOS.  [facebook/ios-snapshot-test-case](https://github.com/facebook/ios-snapshot-test-case) ⭐️⭐️⭐️
+        * Aardvark is a library that makes it dead simple to create actionable bug reports. [square/Aardvark](https://github.com/square/Aardvark) ⭐️
+        * 一个监控iOS上App运行时间的工具，当任意App来到前台时开始监控，当App离开前台或锁屏时暂停监控。可以显示今日、本周、或全部统计结果，并能按打开次数、运行时长排序。 [gugupluto/iOSAppTime](https://github.com/gugupluto/iOSAppTime) ⭐️
+        * An in-app debugging and exploration tool for iOS.  [Flipboard/FLEX](https://github.com/Flipboard/FLEX) ⭐️⭐️⭐️⭐️⭐️
+        * Mirror of the official PLCrashReporter repository.  [plausiblelabs/plcrashreporter](https://github.com/plausiblelabs/plcrashreporter) ⭐️⭐️
+        * Find memory leaks in your iOS app at develop time. [Zepo/MLeaksFinder](https://github.com/Zepo/MLeaksFinder) ⭐️⭐️
+        * iOS tool that helps with profiling iOS Memory usage.  [facebook/FBMemoryProfiler](https://github.com/facebook/FBMemoryProfiler) ⭐️⭐️⭐️
+
+
+    * <a name="ios-objective-c-opensource"></a>**OpenSource**
+        * Facebook开源的Parse源码分析【系列】.  [ChenYilong/ParseSourceCodeStudy](https://github.com/ChenYilong/ParseSourceCodeStudy) ⭐️⭐️⭐️
+        * “已阅”新版，RSS阅读器，使用FMDB做存储，ReactiveCocoa处理数据流向.  [ming1016/GCDFetchFeed](https://github.com/ming1016/GCDFetchFeed) ⭐️
+        * Running Life (iOS版). [caixindong/Running-Life---iOS](https://github.com/caixindong/Running-Life---iOS) ⭐️
+        * 📡 Native App over HTTP, on iOS  [Jasonette/JASONETTE-iOS](https://github.com/Jasonette/JASONETTE-iOS) ⭐️⭐️⭐️⭐️
+        * Dash gives your iPad and iPhone instant offline access to 150+ API documentation sets.  [Kapeli/Dash-iOS](https://github.com/Kapeli/Dash-iOS) ⭐️⭐️⭐️⭐️
+        * Zulip legacy iOS app.  [zulip/zulip-ios-legacy](https://github.com/zulip/zulip-ios-legacy) ⭐️
+        * Coding iOS 客户端源代码.  [Coding/Coding-iOS](https://github.com/Coding/Coding-iOS) ⭐️⭐️⭐️
+        * 高仿美团iOS版，版本号5.7。 [lookingstars/meituan](https://github.com/lookingstars/meituan) ⭐️⭐️
+        * PHPHub for iOS is the universal iPhone and iPad application for PHPHub.   [Aufree/PHPHub-iOS](https://github.com/Aufree/PHPHub-iOS) ⭐️⭐️
+        * Notational Velocity: modeless, mouseless Mac OS X note-taking application.  [scrod/nv](https://github.com/scrod/nv) ⭐️⭐️
+        * MultiMarkdown version (with HTML source tab) of Notational Velocity: modeless, mouseless Mac OS X note-taking application.  [ttscoff/nv](https://github.com/ttscoff/nv) ⭐️⭐️
+        * 🎶 Turn Google Play Music into a separate, beautiful application that integrates with your Mac.  [radiant-player/radiant-player-mac](https://github.com/radiant-player/radiant-player-mac) ⭐️⭐️⭐️
+        * A binary whitelisting/blacklisting system for Mac OS X [google/santa](https://github.com/google/santa) ⭐️⭐️
+        * Simplenote for iOS.  [Automattic/simplenote-ios](https://github.com/Automattic/simplenote-ios) ⭐️⭐️
+        * CareKit is an open source software framework for creating apps that help people better understand and manage their health. [carekit-apple/CareKit](https://github.com/carekit-apple/CareKit) ⭐️⭐️
 		
+
 * <a name="ios-swift"></a>**Swift** [OpenSource](https://github.com/apple/swift) ⭐️⭐️⭐️⭐️⭐️
 	* <a name="ios-swift-code-style"></a>**Code Style**
         * 中文版 Apple 官方 Swift 教程《The Swift Programming Language》. [numbbbbb/the-swift-programming-language-in-chinese](https://github.com/numbbbbb/the-swift-programming-language-in-chinese) ⭐️⭐️⭐️⭐️⭐️
 		* Meta-programming for Swift, stop writing boilerplate code. It scans your source code, applies your personal templates and generates Swift code for you, allowing you to use meta-programming techniques to save time and decrease potential mistakes. [Sourcery](https://github.com/krzysztofzablocki/Sourcery) ⭐️⭐️⭐️⭐️⭐️
 		* <mark>Promises</mark> & Async/Await - Write better async code in Swift. [Hydra](https://github.com/malcommac/Hydra) ⭐️⭐️⭐️⭐️
 		* Swift to JavaScript transpiler. [shift-js](https://github.com/shift-js/shift-js) ⭐️⭐️⭐️
+        * 这个项目用于存储我博客中的demo. [bestswifter/MySampleCode](https://github.com/bestswifter/MySampleCode) ⭐️
+
+
 	* <a name="ios-swift-transition"></a>**Transitions**
 		* Seamless animations and transitions in Swift.[Motion](https://github.com/CosmicMind/Motion) ⭐️⭐️⭐️⭐️⭐️
 		* SamuraiTransition is an open source Swift based library providing a collection of ViewController transitions featuring a number of neat “cutting” animations.[SamuraiTransition](https://github.com/hachinobu/SamuraiTransition) ⭐️⭐️⭐️⭐️
@@ -187,6 +629,10 @@
 		* ESTabBarController is a Swift model for customize UI, badge and adding animation to tabbar items. Support lottie! [ESTabBarController](https://github.com/eggswift/ESTabBarController) ⭐️⭐️⭐️⭐️
 	* <a name="ios-swift-framework"></a>**Framework**
 		* 🎍 Spots is a cross-platform view controller framework for building component-based UIs. [Spots](https://github.com/hyperoslo/Spots) ⭐️⭐️⭐️⭐️
+
+    * <a name="ios-objective-c-date"></a>**Date**
+        * Dates and times made easy in iOS  [MatthewYork/DateTools](https://github.com/MatthewYork/DateTools) ⭐️⭐️⭐️⭐️⭐️
+
 	* <a name="ios-swift-image"></a>**Image**
 		* An image viewer à la Twitter. [ImageViewer](https://github.com/MailOnline/ImageViewer) ⭐️⭐️⭐️⭐️
 		* A lightweight, pure-Swift library for downloading and caching images from the web.[Kingfisher](https://github.com/onevcat/Kingfisher) ⭐️⭐️⭐️⭐️
@@ -202,6 +648,13 @@
 		* A lightweight 3D Linear Carousel with parallax effect. [TGLParallaxCarousel](https://github.com/taglia3/TGLParallaxCarousel) ⭐️⭐️
 	* <a name="ios-swift-media"></a>**Media**
 		* Open-source audio synthesis, processing, & analysis platform.  [AudioKit](https://github.com/audiokit/AudioKit) ⭐️⭐️⭐️
+
+    * <a name="ios-swift-path"></a>**Path**
+
+    * <a name="ios-swift-opensource"></a>**OpenSource**
+        * 爱鲜蜂By Swift2.0.  [ZhongTaoTian/LoveFreshBeen](https://github.com/ZhongTaoTian/LoveFreshBeen) ⭐️⭐️⭐️
+        * Swift精仿知乎日报iOS端. [zpz1237/NirZhihuDaily2.0](https://github.com/zpz1237/NirZhihuDaily2.0) ⭐️⭐️
+
 
 * <a name="ios-c++"></a>**C++**
 	* quick-cocos2d-x is a quick framework, based on cocos2d-x. Make mobile games in Lua.  [quick-cocos2d-x](https://github.com/chukong/quick-cocos2d-x) ⭐️⭐️
@@ -220,9 +673,14 @@
 	* Zen and the Art of the Objective-C Craftsmanship. [objc-zen-book](https://github.com/objc-zen/objc-zen-book#yoda-conditions) ⭐️⭐️⭐️⭐️
 	* ObjC Zen Book 中文翻译. [objc-zen-book-cn](https://github.com/oa414/objc-zen-book-cn) ⭐️⭐️⭐️
 	* Articles for objccn.io. objc.io的完整、准确、优雅的中文翻译版本. [articles](https://github.com/objccn/articles) ⭐️⭐️⭐️
+    * 微博@iOS程序犭袁 的blog [ChenYilong/iOSBlog](https://github.com/ChenYilong/iOSBlog) ⭐️
+    * How to create, develop, and distribute iOS Static Frameworks quickly and efficiently.  [jverkoey/iOS-Framework](https://github.com/jverkoey/iOS-Framework) ⭐️⭐️⭐️
 
 
+
+An iOS and macOS audio visualization framework built upon Core Audio useful for anyone doing real-time, low-latency audio processing and visualizations.
 * <a name="ios-tools"></a>**Tools**
+    * Better playgrounds that work both for Objective-C and Swift. [krzysztofzablocki/KZPlayground](https://github.com/krzysztofzablocki/KZPlayground) ⭐️⭐️⭐️⭐️
 	* 自动生成自签名HTTPS服务器，可以快速安装ipa、apk，基于ios-ipa-server开发 [ipapk-server](https://github.com/zhao0/ipapk-server) ⭐️⭐️
 	* Apple ios automation. [smallapple](https://github.com/thebeet/smallapple) ⭐️⭐️⭐️
 	* 📱 Automation for iOS, Android, and Windows Apps. [appium](https://github.com/appium/appium) ⭐️⭐️⭐️⭐️
@@ -243,6 +701,17 @@
     * A Java to iOS Objective-C translation tool and runtime. [j2objc](https://github.com/google/j2objc) ⭐️⭐️
     * HomeControl is an implementation of the HomeKit Accessory Protocol (HAP) in Go. [brutella/hc](https://github.com/brutella/hc) ⭐️⭐️⭐️⭐️
     * Searchable full-text transcripts of WWDC sessions.   [ASCIIwwdc/asciiwwdc.com](https://github.com/ASCIIwwdc/asciiwwdc.com) ⭐️⭐️
+    * Bring some 12 factor love to your mobile apps! [luggit/react-native-config](https://github.com/luggit/react-native-config) ⭐️
+    * Use SimSim to explore iOS application folders in Terminal or Finder. Fast, stable, free alternative to SimPholders. [dsmelov/simsim](https://github.com/dsmelov/simsim) ⭐️
+    * iTunes connect reporting tool.  [hankinsoft/AppWage](https://github.com/hankinsoft/AppWage) ⭐️
+    * Cordova iOS is an iOS application library that allows for Cordova-based projects to be built for the iOS Platform. Cordova based applications are, at the core, applications written with web technology: HTML, CSS and JavaScript. [apache/cordova-ios](https://github.com/apache/cordova-ios) ⭐️⭐️
+    * A Mac app to decode and extract images from iOS apps, support png/jpg/ipa/Assets.car files. [devcxm/iOS-Images-Extractor](https://github.com/devcxm/iOS-Images-Extractor) ⭐️⭐️⭐️⭐️
+    * a collection to solve app store review problem (ipv6,ipv6被拒绝,后台定位等审核问题的终极解决方案汇总).  [wg689/Solve-App-Store-Review-Problem](https://github.com/wg689/Solve-App-Store-Review-Problem) ⭐️⭐️⭐️
+    * Runtime Code Injection for Objective-C & Swift. [johnno1962/injectionforxcode](https://github.com/johnno1962/injectionforxcode) ⭐️⭐️⭐️⭐️
+    * Dynamic Code Injection Tool for Objective-C [DyCI/dyci-main](https://github.com/DyCI/dyci-main) ⭐️⭐️
+    * Package manager for Xcode. [alcatraz/Alcatraz](https://github.com/alcatraz/Alcatraz) ⭐️⭐️⭐️⭐️
+    * 转换Xcode控制台中一些不可阅读的字符，比如 \u22AD 这种.  [dhcdht/DXXcodeConsoleUnicodePlugin](https://github.com/dhcdht/DXXcodeConsoleUnicodePlugin) ⭐️
+    * Code Pilot is an Xcode plugin which lets you woosh through your code and save a lot (and we mean a *lot*) of your time. [macoscope/CodePilot](https://github.com/macoscope/CodePilot) ⭐️⭐️
 
 
 
@@ -262,7 +731,11 @@
 * Mars is a cross-platform network component developed by WeChat.  [mars](https://github.com/Tencent/mars) ⭐️⭐️⭐️⭐️⭐️
 * A <Video /> component for react-native.  [react-native-video](https://github.com/react-native-community/react-native-video) ⭐️⭐️⭐️
 * A framework for building native UWP and WPF apps with React. [Microsoft/react-native-windows](https://github.com/Microsoft/react-native-windows) ⭐️⭐️
-
+* Device Information for React Native iOS and Android. [rebeccahughes/react-native-device-info](https://github.com/rebeccahughes/react-native-device-info) ⭐️
+* Native iOS UITableView for React Native with JSON support and more. [aksonov/react-native-tableview](https://github.com/aksonov/react-native-tableview) ⭐️
+* A collection of animated loading indicators for React Native. [maxs15/react-native-spinkit](https://github.com/maxs15/react-native-spinkit) ⭐️
+* Rexxar 是一个针对移动端的混合开发框架。现在支持 Android 和 iOS 平台。Rexxar-iOS 是 Rexxar 在 iOS 系统上的客户端实现。[douban/rexxar-ios](https://github.com/douban/rexxar-ios) ⭐️
+* OS X and iOS application and framework to play with the Apple Push Notification service (APNs) [noodlewerk/NWPusher](https://github.com/noodlewerk/NWPusher) ⭐️⭐️⭐️⭐️
 
 
 ##<a name="fe"></a>FE
@@ -443,7 +916,7 @@
 	* HTML5 FLV Player.  [flv.js](https://github.com/Bilibili/flv.js) ⭐️⭐️⭐️⭐️
 	* Port of FFmpeg with Emscripten. [URL](https://github.com/Kagami/ffmpeg.js) ⭐️
 	* Javascript audio library for the modern web. [howler.js](https://github.com/goldfire/howler.js) ⭐️⭐️⭐️⭐️
-
+    * An iOS and macOS audio visualization framework built upon Core Audio useful for anyone doing real-time, low-latency audio processing and visualizations. [syedhali/EZAudio](https://github.com/syedhali/EZAudio) ⭐️⭐️⭐️⭐️
 
 * <a name="fe-wechat"></a>**微信**
 	* 微信调试，各种WebView样式调试、手机浏览器的页面真机调试。便捷的远程调试手机页面、抓包工具，支持：HTTP/HTTPS，无需USB连接设备. [spy-debugger](https://github.com/wuchangming/spy-debugger) ⭐️⭐️
@@ -476,6 +949,7 @@
 	* Production process manager for Node.js apps with a built-in load balancer. [pm2](https://github.com/Unitech/pm2) ⭐️⭐️⭐️⭐️⭐️
 	* A terminal built on web technologies. [hyper](https://github.com/zeit/hyper) ⭐️⭐️⭐️⭐️⭐️
     * LeoFS is an unstructured object/data storage for the Web and a highly available, distributed, eventually consistent storage system.  [leofs](https://github.com/leo-project/leofs) ⭐️⭐️
+    * LiveReload.app for Mac and Windows. See “develop” branch for the latest Windows release and LiveReload 3 progress. (NOTE: renamed from LiveReload2.)  [livereload/LiveReload](https://github.com/livereload/LiveReload) ⭐️⭐️
 
 
 * <a name="fe-other"></a>**Other**
@@ -640,12 +1114,13 @@
 	* 🎨 Color Pickers from Sketch, Photoshop, Chrome, Github, Twitter & more. [URL](https://github.com/casesandberg/react-color) ⭐️⭐️⭐️⭐️
 	* The Pencil Project's unique mission is to build a free and opensource tool for making diagrams and GUI prototyping that everyone can use. [pencil](https://github.com/evolus/pencil) ⭐️⭐️⭐️
 	* Zipline, a Pythonic Algorithmic Trading Library. [zipline](https://github.com/quantopian/zipline) ⭐️⭐️⭐️
+    * [Sketch Plugin] Sketch-flavored Auto Layout-like Constraints.  [matt-curtis/Fluid-for-Sketch](https://github.com/matt-curtis/Fluid-for-Sketch) ⭐️⭐️⭐️
 
 * Command-line program to download videos from YouTube.com and other video sites. 
 * Monospaced font family for user interface and coding environments.  [source-code-pro](https://github.com/adobe-fonts/source-code-pro) ⭐️⭐️⭐️
 * 批量压缩png和jpg图片python脚本.  [GGTinypng](https://github.com/ylovern/GGTinypng) ⭐️⭐️
 * Font files available from Google Fonts.  [google/fonts](https://github.com/google/fonts) ⭐️⭐️⭐️
-
+* A Quartz Composer framework that enables interactive design prototyping without programming.  [facebookarchive/origami](https://github.com/facebookarchive/origami) ⭐️⭐️⭐️⭐️
 
 
 ##<a name="shell"></a>Shell
@@ -666,6 +1141,7 @@
 * vim color scheme inspired by Taylor Swift.  [1989.vim](https://github.com/sonjapeterson/1989.vim) ⭐️
 * A personal Emacs configuration. [URL](https://github.com/zilongshanren/spacemacs-private) ⭐️⭐️ <sup>emacs</sup>
 * A community driven list of useful Emacs packages, libraries and others. [awesome-emacs](https://github.com/emacs-tw/awesome-emacs) ⭐️⭐️⭐️⭐️⭐️ <sup>emacs</sup>
+* Xcode plugin for Vim keybindings.  [XVimProject/XVim](https://github.com/XVimProject/XVim) ⭐️⭐️⭐️⭐️
 
 ##<a name="python"></a>Python
 * A curated list of awesome Python frameworks, libraries, software and resources.  [awesome-python](https://github.com/vinta/awesome-python) ⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
@@ -719,7 +1195,7 @@
 * A Git platform powered by Scala with easy installation, high extensibility & github API compatibility [gitbucket/gitbucket](https://github.com/gitbucket/gitbucket) ⭐️⭐️⭐️⭐️
 * Gogs 是一款极易搭建的自助 Git 服务。  [gogits/gogs](https://github.com/gogits/gogs) ⭐️⭐️⭐️⭐️
 * Gitea: Git with a cup of tea [go-gitea/gitea](https://github.com/go-gitea/gitea) ⭐️⭐️⭐️
-
+* The Git interface you've been missing all your life has finally arrived. [git-up/GitUp](https://github.com/git-up/GitUp) ⭐️⭐️⭐️⭐️⭐️
 
 
 ## <a name="distribution-plan"></a>部署方案
@@ -775,10 +1251,15 @@
 * 阿波罗11号制导计算机（AGC）中指令模块（Comanche055）和登月模块（Luminary099）原始代码。 [chrislgarry/Apollo-11](https://github.com/chrislgarry/Apollo-11/blob/master/README.zh_cn.md) ⭐️⭐️⭐️⭐️⭐️
 * Visual Studio Code. [Microsoft/vscode](https://github.com/Microsoft/vscode) ⭐️⭐️⭐️⭐️⭐️
 * OpenPower工作组收集汇总的医院开放数据. [open-power-workgroup/Hospital](https://github.com/open-power-workgroup/Hospital) ⭐️⭐️⭐️⭐️
+* TextMate is a graphical text editor for OS X 10.8+  [textmate/textmate](https://github.com/textmate/textmate) ⭐️⭐️⭐️⭐️⭐️
+* 💀 Mac app to block your own access to distracting websites etc for a predetermined period of time. It can not be undone by the app or by a restart – you must wait for the timer to run out. [SelfControlApp/selfcontrol](https://github.com/SelfControlApp/selfcontrol) ⭐️⭐️
+
+
 
 
 ##<a name="other"></a>Other
 * <a name="other-tools"></a>**工具**
+    * Spectacle allows you to organize your windows without using a mouse. [eczarny/spectacle](https://github.com/eczarny/spectacle) ⭐️⭐️⭐️⭐️⭐️
 	* A stock trading bot powered by Trump tweets.[trump2cash](https://github.com/maxbbraun/trump2cash) ⭐️
 	* https://github.com/joeblau/gitignore.io. [gitignore.io](https://github.com/joeblau/gitignore.io) ⭐️⭐️
 	* https://github.com/snide/sphinx_rtd_theme. [sphinx_rtd_theme](https://github.com/snide/sphinx_rtd_theme) ⭐️⭐️⭐️
