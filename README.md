@@ -242,7 +242,6 @@
 
 
 
-
     * <a name="ios-objective-c-action-sheet"></a>**ActionSheet**
         * Quickly reproduce the dropdown UIPickerView / ActionSheet functionality [ActionSheetPicker](https://github.com/skywinder/ActionSheetPicker-3.0) ⭐️⭐️⭐️
         * A Custom Action Sheet. [yulingtianxia/TBActionSheet](https://github.com/yulingtianxia/TBActionSheet) ⭐️
@@ -1152,7 +1151,7 @@ An iOS and macOS audio visualization framework built upon Core Audio useful for 
 * 基于 python3.4 和 django1.9 的 Blog 项目.  [django-blog-tutorial](https://github.com/zmrenwu/django-blog-tutorial) ⭐️⭐️⭐️
 * Project documentation with Markdown. [mkdocs](https://github.com/mkdocs/mkdocs) ⭐️⭐️⭐️⭐️
 * Apple 网络服务加速配置。（少数派、Appinn、Mac玩儿法 推荐） [AppleDNS](https://github.com/gongjianhui/AppleDNS) ⭐️⭐️⭐️
-* [URL](curl statistics made simple)  [httpstat](https://github.com/reorx/httpstat) ⭐️⭐️⭐️
+* curl statistics made simple [reorx/httpstat](https://github.com/reorx/httpstat) ⭐️⭐️⭐️
 * Apache Libcloud is a Python library which hides differences between different cloud provider APIs and allows you to manage different cloud resources through a unified and easy to use API. [libcloud](https://github.com/apache/libcloud) ⭐️⭐️
 * artistic QR Code in Python （Animated GIF qr code）- Python 艺术二维码生成器 （GIF动态二维码、图片二维码）[qrcode](https://github.com/sylnsfar/qrcode) ⭐️⭐️⭐️⭐️⭐️
 * Python HTTP Requests for Humans™  [requests](https://github.com/kennethreitz/requests) ⭐️⭐️⭐️⭐️⭐️
